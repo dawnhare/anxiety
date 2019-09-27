@@ -731,7 +731,7 @@ h: 아니--
 b: 그치만 *만약 그러면*
 //but *what if*
 
-h: ㅆ--
+h: ㅈ--
 //S--
 
 `bb({eyes:"narrow_eyebrow"});`
