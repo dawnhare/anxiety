@@ -3,7 +3,7 @@
 <head>
 	
 	<!-- THE BIG META -->
-	<title>불안감과 함께 하는 모험!</title>
+	<title>불안감과 함께하는 모험!</title>
 	<meta name="description" content="A story-game about a human and their anxiety. You play as the anxiety." />
 	<link rel="icon" type="image/png" href="favicon.png">
 
@@ -51,10 +51,10 @@
 		<span id="cta_text1">
 			<div class="mini-icon" pic="click" style="top:3px;"></div>
 			<span id="instructions_if_not_mobile">
-				click or spacebar
+				마우스 클릭 or 스페이스바
 			</span>
 			<span id="instructions_if_mobile" style="display:none">
-				tap anywhere
+				아무 곳이나 누르세요
 			</span>
 		</span>
 		<span id="cta_text2">
@@ -80,8 +80,8 @@
 	<!-- Paused Screen -->
 	<div id="paused">
 		<div>
-			paused
-			<div>click anywhere to keep freaking out</div>
+			일시정지
+			<div>아무 곳이나 클릭해서 자제력을 잃으세요</div>
 		</div>
 	</div>
 
@@ -97,26 +97,26 @@
 	<div id="content_notes">
 
 		<p style="margin-top: 0.6em;">
-			<i style="color:#ff4040">Adventures With Anxiety</i> is about, well, anxiety.
+			<i style="color:#ff4040">불안감과 함께하는 모험</i> 의 주제는, 뭐, 불안감이죠.
 		</p>
 		<p>
-			But I've made this <i>for</i> folks with anxiety disorder, like myself.
-			I hope it can help you see – with humor – how anxiety works.
-			And, just maybe, reduce the fear of fear itself.
+			전 이 게임을 저를 비롯한, 불안 장애를 겪은 사람들을 위해 만들었습니다.
+			이 게임을 통해서 불안감이 어떻게 작용하는지 이해하실 수 있으면 좋겠습니다.
+			그리고 혹시 모르지만, 공포 그 자체를 두려워하는 감정을 줄일 수 있으면 좋겠습니다.
 		</p>
 		<p>
-			There's also badly-drawn stick figures and a hyperactive wolf.
-			Enjoy!
+			또, 이 게임엔 대충 그린 졸라맨이랑 과하게 움직이는 늑대가 나옵니다.
+			좋은 시간 되세요!
 		</p>
 		<p style="color:#999; font-size: 16px; line-height: 1.3em;">
-			other notes: alcohol abuse, sexuality<span class="hide-if-cuss-free">, a @✩$!load of swearing</span>
+			또 다른 주의 노트: 약물 남용, 성적 요소, 그리고<span class="hide-if-cuss-free">, @✩$!나게 많은 욕설</span>
 		</p>
 		<p>
-			<a target="_blank" href="https://ncase.me/mental-health-resources">mental health resources</a>
+			<a target="_blank" href="https://ncase.me/mental-health-resources">정신 건강 복지기관</a>
 			&#x1f517;
 		</p>
 		<div id="cn_ok" onclick="publish('hide_cn');" style="float:none">
-			ok <div class="mini-icon" pic="ok" style="top: 3px;"></div>
+			확인 <div class="mini-icon" pic="ok" style="top: 3px;"></div>
 		</div>
 
 	</div>
@@ -126,30 +126,30 @@
 		<div id="about_words">
 		
 			<div style="font-size: 40px; margin-top: 42px; line-height: 30px;">
-				mental health
-				<a href="https://ncase.me/mental-health-resources" target="_blank">resources</a>
+				정신 건강
+				<a href="https://ncase.me/mental-health-resources" target="_blank">복지 기관</a>
 			</div>
 
 			<div style="margin-top: 26px; color: #999;">
-				&mdash; or &mdash;
+				&mdash; 아니면 &mdash;
 			</div>
 			
 			<div style="font-size: 25px; text-align: left; width: 170px;
 						margin-left: 165px; line-height: 25px; margin-top: 31px;">
 				
 				<div>
-					play more of
-					<a href="https://ncase.me" target="_blank">my shtuff</a>
+					제작자가 만든
+					<a href="https://ncase.me" target="_blank">게임 보러 가기</a>
 				</div>
 
 				<div style="margin-top: 32px;">
-					throw coins<br>at me
-					<a href="https://www.patreon.com/ncase" target="_blank">on Patreon</a>
+					제작자의<br>Patreon에
+					<a href="https://www.patreon.com/ncase" target="_blank">동전 던지기</a>
 				</div>
 
 				<div style="margin-top: 28px;">
-					please your ear-holes with Monplaisir's
-					<a href="https://chezmonplaisir.bandcamp.com/album/anxiety" target="_blank">original soundtrack</a>
+					Monplaisir가 만든 OST를 들으면서
+					<a href="https://chezmonplaisir.bandcamp.com/album/anxiety" target="_blank">귀 호강시키기</a>
 				</div>
 
 			</div>
@@ -169,16 +169,16 @@
 			<input id="text_speed_slider" type="range" min=0 value=0.5 max=1 step="0.01"/>
 		</div>
 		<div style="float: right; width: 135px; height: 63px;">
-			And advance
-			<div id="text_automatic_toggle">on click</div>
+			진행 방법은
+			<div id="text_automatic_toggle">클릭</div>
 		</div>
 		<div style="clear:both"></div>
 		<span id="volume_options">
-			<div>Volume:</div>
+			<div>소리:</div>
 			<input id="volume_slider" type="range" min=0 max=1 value=1 step="0.01"/>
 		</span>
 		<div id="options_ok">
-			ok <div class="mini-icon" pic="ok" style="top: 3px;"></div>
+			 <div class="mini-icon" pic="ok" style="top: 3px;"></div>
 		</div>
 	</div>
 
