@@ -418,7 +418,8 @@ b: 그치만 겁쟁이 개가 되는 건 *싫어*! 널 지켜주고 싶단 말�
 
 `bb({eyes:"sad", mouth:"normal"});`
 
-b: 인간... 이 늑대를 길들여줄 수 있겠어?Human... will you help tame this wolf?
+b: 인간... 이 늑대를 길들여줄 수 있겠어?
+//Human... will you help tame this wolf?
 
 `hong({eyes:"sad"})`
 
