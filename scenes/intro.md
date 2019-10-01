@@ -94,7 +94,7 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 
 n3: 환영합니다! 사실 이건 "게임"이라기보다는 대화 형식의 이야기에요. 글 읽기 좋아했으면 좋겠네요, 멍충 씨!
 
-n3: 그러니 시작에 앞서, 혹시 *읽기* 좋아하시나요?
+n3: 그러니 시작에 앞서, 어떻게 *읽는 걸* 좋아하시나요?
 
 `publish("show_options_bottom")`
 
