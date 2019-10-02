@@ -14,7 +14,7 @@ Game.FORCE_CANT_SKIP = false;
 Game.CLICK_TO_ADVANCE = true;
 ```
 
-n3: (game auto-saved)
+n3: (자동 저장 완료)
 
 ```
 Game.clearText();
@@ -334,11 +334,7 @@ b: 뭐, 덕분인지 다른 것들은 비교적 덜 무서워 보이네. 그래�
 
 b: 너랑 싸우는 게 널 지켜주지 못해서 별로라면 말야...
 
-//If me fighting you sucks, because it doesn't protect you...
-
 h: 근데 너랑 싸우는 것도 마찬가지인걸, 네가 더 시끄럽게 소리치게만 만드니까...
-
-//But me fighting you *also* sucks, because it just makes you yell louder...
 
 `bb({eyes:"normal_r"})`
 
@@ -419,7 +415,6 @@ b: 그치만 겁쟁이 개가 되는 건 *싫어*! 널 지켜주고 싶단 말�
 `bb({eyes:"sad", mouth:"normal"});`
 
 b: 인간... 이 늑대를 길들여줄 수 있겠어?
-//Human... will you help tame this wolf?
 
 `hong({eyes:"sad"})`
 
@@ -432,8 +427,6 @@ h: 좋아. 감정과 건강한 관계. 관계에는 소통이 필요하지. 좋�
 `hong({eyes:"normal", body:"hands_1", mouth:"normal"})`
 
 h: 앞으로 5분 동안은 정말 오글거리긴야 하겠는데, 그냥 될때 까지 그려러니 하라고.
-
-//The next five minutes are going to sound super cheesy, but let's fake it 'til we make it.
 
 ```
 hong({body:"hands_2", mouth:"normal"});
@@ -471,8 +464,6 @@ _.a4_fears_discussed += 1;
 
 b: 네 신체적으로 안전하다고 느끼도록 지켜주고 싶어.
 
-//I want to protect your need for physical safety, 직역하기 어렵군요;;
-
 `bb({eyes:"sad_d"})`
 
 b: 그렇지만 온 *세상*이 위험해 보인단 말야. 온갖 비극과 사악함으로 점철되어 있잖아.
@@ -497,7 +488,6 @@ b: 더 생각나는 거 없어, 인간?
 
 [그럼 *더 많은* 위험에 노출되어 보자구.](#act4_harm_exposure)
 
-//Let's expose ourselves to *more* danger.
 
 [고마워.](#act4_thanks) `_.thanks_for = "신체의 안전";`
 
@@ -514,7 +504,7 @@ hong({ body:"one_up", eyes:"surprise" });
 
 h: 호신술 배워보는 건 어때? 아님 서로 보호해주는 공동체에 들어간다던가? 우리 전반적인 건강이나 개인적인 경계선을 개선시켜볼 수도 있고.
 
-//We could learn self-defense? Join a community that protects each other? Improve our general health & personal boundaries?
+
 
 ```
 bb({ eyes:"annoyed_r" });
@@ -718,7 +708,7 @@ h: 너랑 협력하고 상의해가면서 선을 그을 수 있을 거야.
 
 b: 좋아. 근데 난 늑대라서 손가락 못 쓰니까 선 긋는 건 네가 해야 해.
 
-//Okay. But I've got no opposable thumbs, so you have to do the drawing.
+
 
 (#act4_something_else)
 
@@ -799,8 +789,6 @@ b: 내게 *고맙다고*한 적은 이번이 처음이야.
 `hong({ mouth:"smile" });`
 
 h: 어이구 이 털복숭이 겁쟁이 늑대야.
-
-//Aw you big fuzzy-wuzzy panic-wolf.
 
 (#act4_something_else)
 
@@ -906,19 +894,13 @@ h: 질문하거나 경청하고 공감하고 마음을 여는 것처럼 사회�
 
 h: 아니면 사회성있는 습관을 기른다던가, 친구들과 약속도 잡고 아님 동아리같은데 정기적으로 참여한다던지?
 
-//Or make better social habits, like scheduling time with friends or regularly going to meetups?
-
 `hong({ body:"one_up" });`
 
 h: 거절당하는 거에 편해지는 법을 배울 수도 있고.
 
-//Could also learn to get more comfortable with rejection.
-
 `hong({ eyes:"normal" });`
 
 h: 아니면 사람들이 우릴 기피하는 게 *아닐* 때에 대한 것도 알 수 있을 테고. 사실은 그냥 피곤하다거나 낮짝이 원래 ^좆같다^거나 
-
-//Or learn to know when people *aren't* rejecting us, they're just tired or have Resting ^Bitch^ Face.
 
 ```
 hong({ body:"normal" });
@@ -969,8 +951,6 @@ h: “^좆^같이 굴지 마세요™”
 
 b: 발닦개처럼 되어서 생글생글 웃으면서 사람들은 우릴 짓밟고 문지르게 될 거라고!
 
-//We'll become a Welcome doormat, saying Please and Thank You as people wipe their feet on us!
-
 `bb({ mouth:"scream", eyes:"scream" })`
 
 b: 하도 빨아대서 갈색 립스틱이라도 바르게 된 거처럼 보일 거야!
@@ -991,7 +971,7 @@ hong( eyes:"angry", mouth:"narrow" });
 bb( eyes:"annoyed", mouth:"smile" });
 ```
 
-h: 그리고... ㄴ립스틱 뭐? *드러워*.
+h: 그리고... 립스틱 뭐? *드러워*.
 
 (#act4_something_else)
 
@@ -1043,7 +1023,7 @@ h: 우린 우리가 생각하는 거 보다 좀 더 호감가는 사람일 지�
 
 [만약 이게 그저 작고 얉은 "성공"이라면 어떻게 해?](#act4_alone_experiment_cheap)
 
-//What if these are small, cheap "wins"
+
 
 [남에게 민폐끼치는 거라면 어떡해?](#act4_alone_experiment_burden)
 
@@ -1075,8 +1055,6 @@ b: 뭐.
 `hong({body:"hands_1"})`
 
 h: 개들이 사랑과 신뢰를 보여줄 때, 배를 보여줌으로써 위험에 노출시키잖아.
-
-//When dogs want to show love and trust, they make themselves vulnerable by exposing their belly.
 
 `hong({body:"one_up"})`
 
@@ -1136,8 +1114,6 @@ h: *"별일 없어요!"*
 
 b: 바리스타는 그냥 커피나 만들고 싶어하는데 우리가 사회성이 얼마나 떨어지는지 *실험*하는 건 민폐 아닐까?
 
-//Maybe the barista just wants to make some dang coffee, not be an *experiment* to see if our social skills suck.
-
 `bb({ eyes:"annoyed" })`
 
 h: 뭐, 정말로 우리가 *민폐*라면...
@@ -1159,8 +1135,6 @@ bb({ eyes:"annoyed", mouth:"smile" });
 ```
 
 h: 왜 있잖아, 심리상담가들 책자에 써있는 "대인관계 기술"인가 뭔가 
-
-//Y'know, all that "inter-personal skills" ^crap^ we see in counselor brochures.
 
 (#act4_something_else)
 
@@ -1257,8 +1231,6 @@ hong({eyes:"sad", mouth:"smile"});
 
 h: 상처는 시간이 지나면 나아지지만 흉터는 그대로 남지. 그래도 괜찮아.
 
-//Scars heal with time, but they never go away. And that's okay.
-
 `bb({eyes:"annoyed_r"});`
 
 b: 그래 뭐, 게다가
@@ -1297,13 +1269,9 @@ b: 내 말은, 그거 없이는 *지루하지* 않겠어?
 
 b: 우리가 완벽하다면 우리의 예술은 밋밋하고 재미없게 되지 않을까?
 
-//Without the disorder, won't our art become stale and bland?
-
 `bb({ eyes:"sad_u", body:"two_up" })`
 
 b: 우리가 정말 완전무결하다면 , 흠결 있는 우리 친구들과 이어지지 못하는 거 아닐까?
-
-//Without the disorder, won't we be unable to connect with our friends who have the disorder?
 
 `bb({ eyes:"sad", body:"chest" })`
 
@@ -1328,8 +1296,6 @@ b: 오, 좋아! 휴! 다행이야!
 `bb({ body:"one_up", eyes:"sexy", mouth:"normal" })`
 
 b: "의사 선생님, 댁이 *그게 본인에게 어떤 기분이 들게 했나요?* 같은 질문이나 듣는데 시간당 몇만원씩 들어가서 게 불안해요"
-
-//Doc, I'm anxious that I'm paying $100/hr just to hear you ask *how does that make you feel?*"
 
 `bb({ body:"paw", eyes:"closed", mouth:"narrow" })`
 
@@ -1366,16 +1332,12 @@ h: 도서관에 가서 검증된 심리치료법에 관한 책도 빌려 볼 수
 
 h: 이 게임 끝에 그런 정보들의 리스트가 쭉 있다고!
 
-//There's a full list of resources at the end of this game!
-
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed", mouth:"narrow" });
 ```
 
 b: 음, 방금 *그* 제4의 벽은 오래 안 갔네
-
-//Well *that* fourth wall didn't last long.
 
 `hong({ body:"point" });`
 
@@ -1415,15 +1377,11 @@ b: 마틴 루터 킹이 "어이구 버스 앞자리에 못앉는구먼, 그냥 �
 
 b: 왜 자립적 산업-복합체는 무슨 백기를 흔드는 게 심오한 지혜라도 되는 줄 아는 거람?
 
-//Why does the Self-Help Industrial Complex think waving the white flag is some *profound wisdom?*
-
 `bb({ eyes:"annoyed", body:"normal" });`
 
 h: 내 생각에는 "받아들인다"는 게 문제 있다는 걸 직시하고 해결하기 쉽지 않다는 걸 인정한다는 의미에서 같아.
 
 h: 하지만 바뀔수 있다는 의지를 포기할 필요는 없는 선에서
-
-//But not necessarily giving up a commitment to change.
 
 `bb({ eyes:"suspect" });`
 
@@ -1478,7 +1436,7 @@ h: 너, 내 공포와 싸우는 것은 결국 날 옥상에서 뛰어내릴뻔 �
 
 h: 대신에, 해결방안은 우리가 지금 하는 이거야. 싸우지 말고 침착하게 함께 있기.
 
-//Instead, the solution is to do what we're doing now – not to fight, but to patiently be with each other.
+
 
 `bb({ eyes:"annoyed" });`
 
@@ -1503,8 +1461,6 @@ b: 그치만 날 말 그대로 대해선 안된다는 거 우리 모두 *알잖�
 `bb({ eyes:"sad_u", body:"two_up" });`
 
 b: 애초에 이 모든 *문제*가, 나는 널 돕고 싶은데 내가 그걸 제대로 전달하는 데 젬병이라서 그런 거라구!
-
-//The whole *problem* is that I want to help you, but I suck at using words to do so!
 
 `bb({ eyes:"sad", body:"normal" });`
 
@@ -1645,7 +1601,6 @@ s: *얘*한테 반해 있는 거라고? 왜 뭔 싸이코 킬러마냥 앉아있
 {{if _.TOP_FEAR=="alone"}}
 s: 네가 반한 애한테 같이 앉아도 되냐고? 완전 *구질구질*해 보이는 거 알아?!
 
-//Asking your crush if you can sit with them? Do you know how *needy* we sound?!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
@@ -1833,8 +1788,6 @@ Game.WORDS_HEIGHT_BOTTOM = -1; /* reset */
 
 h: 흠, 그거 이상하네. 대체 무슨 생각이 오가고 있던 걸까나.
 
-//Huh. That was weird. I wonder what was going on in their head.
-
 `publish("act4", ["hong_closer", 2]);`
 
 h: 어쨌든 어디까지 했지?
@@ -1871,8 +1824,6 @@ b: 좋은 경비견이 되고 싶어. 마치 배고픔이나 목마름이 네 �
 `publish("act4", ["bb_closer", 8]);`
 
 b: 나도 네 심리적인 욕구에 대한 알람이 되고 싶다고. 안전해지고 싶은 욕구, 소속되고 싶은 욕구, 더 나은 사람이 되고 싶은 욕구
-
-//I want to be the alarm for your *psychological* needs – your needs for safety, belonging, goodness.
 
 `publish("act4", ["bb_closer", 1]);`
 
