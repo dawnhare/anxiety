@@ -135,7 +135,7 @@ b: 우리는--
 
 `bb({body:"panic"})`
 
-b: **죽을 거야아아아아아아아DIEE**DIEE
+b: **죽을 거야아아아아아아아**
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -240,7 +240,7 @@ b: 우리가 *지금 당장* 다른 사람과 어울리지 않으면 우리는-
 
 `bb({body:"panic"})`
 
-b: **죽을 거야아아아아아아아**
+b: **죽을 거야아아아아아아아DIEE**DIEEE
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
