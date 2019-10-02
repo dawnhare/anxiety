@@ -1349,7 +1349,7 @@ bb({eyes:"narrow", mouth:"small"});
 Game.FORCE_TEXT_DURATION = 2100;
 ```
 
-b: ♫ ^^가 될 거야-
+b: ♫ ^걸레^가 될 거야-
 
 
 (...1500)
