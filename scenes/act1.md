@@ -135,7 +135,7 @@ b: 우리는--
 
 `bb({body:"panic"})`
 
-b: **죽을 거야아아아아아아아**
+b: **죽을 거야아아아아아아아DIEE**DIEE
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -178,17 +178,6 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-`_.fifteencigs = false`
-`_.parasite = false`
-`_.whitebread = false`
-`_.subtweet = false`
-`_.badnews = false`
-`_.hookuphole = false`
-`_.serialkiller = false`
-`_.catmilk = false`
-`_.pokemon = false`
-
-`_.whalepoop = false`
 
 h: 아, 그래. 내 늑대가 돌아왔네. 아이고 좋아라.
 
