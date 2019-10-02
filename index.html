@@ -3,29 +3,26 @@
 <head>
 	<meta charset="utf-8">
 	<!-- THE BIG META -->
+
 	<title>불안감과 함께하는 모험!</title>
 	<meta name="description" content="A story-game about a human and their anxiety. You play as the anxiety." />
-	<link rel="icon" type="image/png" href="favicon.png">
 
-	<!-- Schema.org markup for Google+ -->
-	<meta itemprop="name" content="Adventures With Anxiety!">
-	<meta itemprop="description" content="A story-game about a human and their anxiety. You play as the anxiety.">
-	<meta itemprop="image" content="https://ncase.me/anxiety/sharing/thumb.png">
+	<link rel="icon" type="image/png" href="favicon.png">
 
 	<!-- Twitter Card data -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@ncasenmare">
-	<meta name="twitter:title" content="Adventures With Anxiety!">
-	<meta name="twitter:description" content="A story-game about a human and their anxiety. You play as the anxiety.">
+	<meta name="twitter:title" content="Adventures With Anxiety!">  <!-- TRANSLATE: content -->
+	<meta name="twitter:description" content="A story-game about a human and their anxiety. You play as the anxiety.">  <!-- TRANSLATE: content -->
 	<meta name="twitter:image" content="https://ncase.me/anxiety/sharing/thumb.png">
 
 	<!-- Open Graph data -->
-	<meta property="og:title" content="Adventures With Anxiety!">
+	<meta property="og:title" content="Adventures With Anxiety!">  <!-- TRANSLATE: content -->
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://ncase.me/anxiety/">
 	<meta property="og:image" content="https://ncase.me/anxiety/sharing/thumb.png">
-	<meta property="og:description" content="A story-game about a human and their anxiety. You play as the anxiety.">
-	<meta property="og:site_name" content="Adventures With Anxiety!">
+	<meta property="og:description" content="A story-game about a human and their anxiety. You play as the anxiety.">  <!-- TRANSLATE: content -->
+	<meta property="og:site_name" content="Adventures With Anxiety!">  <!-- TRANSLATE: content -->
 	
 	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="styles/game.css">
@@ -51,10 +48,12 @@
 		<span id="cta_text1">
 			<div class="mini-icon" pic="click" style="top:3px;"></div>
 			<span id="instructions_if_not_mobile">
+
 				마우스 클릭 or 스페이스바
 			</span>
 			<span id="instructions_if_mobile" style="display:none">
 				아무 곳이나 누르세요
+
 			</span>
 		</span>
 		<span id="cta_text2">
@@ -80,8 +79,10 @@
 	<!-- Paused Screen -->
 	<div id="paused">
 		<div>
+
 			정지
 			<div>아무 곳이나 클릭해서<br>자제력을 잃으세요</div>
+
 		</div>
 	</div>
 
@@ -96,6 +97,7 @@
 	<!-- CONTENT NOTES -->
 	<div id="content_notes">
 
+		<!-- TRANSLATE THIS -->
 		<p style="margin-top: 0.6em;">
 			<i style="color:#ff4040">불안감과 함께하는 모험</i> 의 주제는<br>뭐, 불안감이죠.
 		</p>
@@ -111,7 +113,9 @@
 			또 다른 주의 노트: 약물 남용, 성적 요소,<br>그리고<span class="hide-if-cuss-free">, @✩$!나게 많은 욕설</span>
 		</p>
 		<p>
+
 			<a target="_blank" href="https://ncase.me/mental-health-resources">정신 건강 복지기관</a>
+
 
 			&#x1f517;
 		</p>
@@ -125,9 +129,11 @@
 	<div id="about"><!-- about=yes-->
 		<div id="about_words">
 		
+
 			<div style="font-size: 34px; margin-top: 42px; line-height: 30px;">
 				정신 건강
 				<a href="https://ncase.me/mental-health-resources" target="_blank">복지 기관</a>
+
 
 			</div>
 
@@ -137,6 +143,8 @@
 			
             <div style="font-size: 25px; text-align: left; width: 170px;
 						margin-left: 165px; line-height: 25px; margin-top: 31px;">
+
+
 
                 <div>
                     제작자가 만든<br>
@@ -156,7 +164,7 @@
 			<div id="replay"></div>
 
 			<div style="clear:both;"></div>
-			<div id="close_about" style="margin: 0; float: right; margin-top: 20px;">close</div>
+			<div id="close_about" style="margin: 0; float: right; margin-top: 20px;">close</div> <!-- TRANSLATE -->
 
 		</div>
 	</div>
@@ -168,6 +176,7 @@
 			<input id="text_speed_slider" type="range" min=0 value=0.5 max=1 step="0.01"/>
 		</div>
 		<div style="float: right; width: 135px; height: 63px;">
+
 			진행 방식:
 			<div id="text_automatic_toggle">클릭</div>
 		</div>
@@ -178,6 +187,7 @@
 		</span>
 		<div id="options_ok">
 			 <div class="mini-icon" pic="ok" style="top: 3px;"></div>
+
 		</div>
 	</div>
 
@@ -192,6 +202,8 @@
 <!-- - - - - - - - - - - - - - - - - - -->
 <!-- SHTUFF IN THE CORNER - - - - - - - -->
 <!-- - - - - - - - - - - - - - - - - - -->
+
+<!-- TRANSLATE ALL OF THIS -->
 
 <div class="corner-text" id="topleft">
 제작 : 
@@ -220,16 +232,18 @@
 </div>
 
 <div class="corner-text" id="topright">
+
 Anxiety를 공유하세요:
+
 <div id="share">
-	<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fncase.me%2Fanxiety%2F" target="_blank" class="no_deco">
+	<a id="share_link_fb" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fncase.me%2Fanxiety%2F" target="_blank" class="no_deco">
 		<div id="share_fb"></div>
 	</a>
-	<a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fncase.me%2Fanxiety%2F&text=I%20just%20played%20this%20story-game%20about%20a%20human%20and%20their%20anxiety!%20You%20play%20*as*%20the%20anxiety.%20%F0%9F%98%B1%20https%3A%2F%2Fncase.me%2Fanxiety%2F"
+	<a id="share_link_tw" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fncase.me%2Fanxiety%2F&text=I%20just%20played%20this%20story-game%20about%20a%20human%20and%20their%20anxiety!%20You%20play%20*as*%20the%20anxiety.%20%F0%9F%98%B1%20https%3A%2F%2Fncase.me%2Fanxiety%2F"
 		target="_blank" class="no_deco">
 		<div id="share_tw"></div>
 	</a>
-	<a href="mailto:?subject=Adventures%20with%20Anxiety!&body=I%20just%20played%20this%20story-game%20about%20a%20human%20and%20their%20anxiety!%20You%20play%20*as*%20the%20anxiety.%20%F0%9F%98%B1%20https%3A%2F%2Fncase.me%2Fanxiety%2F"
+	<a id="share_link_em" href="mailto:?subject=Adventures%20with%20Anxiety!&body=I%20just%20played%20this%20story-game%20about%20a%20human%20and%20their%20anxiety!%20You%20play%20*as*%20the%20anxiety.%20%F0%9F%98%B1%20https%3A%2F%2Fncase.me%2Fanxiety%2F"
 		target="_blank" class="no_deco">
 		<div id="share_em"></div>
 	</a>
@@ -271,6 +285,7 @@ Anxiety를 공유하세요:
 <script src="scripts/game/Options.js"></script>
 <script src="scripts/game/About.js"></script>
 <script src="scripts/game/ContentNotes.js"></script>
+<script src="scripts/game/Sharing.js"></script>
 
 <!-- INTRO -->
 <script src="scripts/intro/Intro_SceneSetup.js"></script>
