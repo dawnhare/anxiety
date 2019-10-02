@@ -26,7 +26,7 @@ Loader.addSounds([
 			HOW_MANY_PROMPTS = 1;
 		}
 		Game.CLICK_TO_ADVANCE = !Game.CLICK_TO_ADVANCE;
-		text_automatic_toggle.innerHTML = Game.CLICK_TO_ADVANCE ? "on click" : "automatically";
+		text_automatic_toggle.innerHTML = Game.CLICK_TO_ADVANCE ? "클릭" : "자동";
 
 		// Sound
 		sfx( Game.CLICK_TO_ADVANCE ? "ui_button2" : "ui_button1");
@@ -145,7 +145,7 @@ Loader.addSounds([
 		div.innerHTML = "";
 
 		// What's the dialogue?
-		var dialogue = Game.TEXT_SPEED<80 ? "Speak this fast" : "Speak this slow";
+		var dialogue = Game.TEXT_SPEED<80 ? "이 정도 빠르게" : "이 정도 느리게";
 
 		// Put in the text
 		var span, chr;
