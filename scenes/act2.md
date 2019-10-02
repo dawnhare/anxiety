@@ -350,30 +350,25 @@ _.a2_attack_1 = "bad";
 `bb({body:"one_up", eyes:"normal_r"})`
 
 b: 우리가 의미있는 무언가를 하는게 가능하긴 할까?
-//At the end of it all, what can we possibly do that really matters? 
 
 `bb({body:"normal", eyes:"sad"})`
 
 b: 인류에 대한 공헌? 모든 걸작들은 시간 앞에서 다 사그라들지. 사랑? 죽음이 언제나 갈라버릴 거야. 
-//Contribute to humanity? All great works decay the way of Ozymandias. Love? Death will always do it part.
 
 `bb({eyes:"sad_r"})`
 
 b: 그리고 얼마나 많은 죽음이 있는데! 우리도 죽지. 우리가 사랑하는 사람들도 죽을 거야.
 
-//And how much death there is! *We* will die. *Our loved ones* will die.
 
 `bb({eyes:"shock", body:"two_up"})`
 
 b: 아니, 애초에 열역학 제 2법칙에 의하면 이 우주마저도 죽을 거라고!
 
-//Heck, the Second Law of Thermodynamics means even our *universe* will die!
 
 `bb({eyes:"suspect", body:"normal"})`
 
 b: 아, "그렇지만 죽음 덕분에 삶에 감사해할 수 있다"고? 노예제 덕분에 자유에 감사해 할 수 있다는 거랑 뭐가 달라! 
 
-/
 
 `bb({body:"one_up"})`
 
@@ -492,7 +487,7 @@ sfx("gravel");
 
 (...501)
 
-b: 변태법 제 74.5절 1조 : 다음 사항을 변태처럼 쳐다보는 인간은 2조와 같이 정의한다. 1항: 근육질 어깨 2항: 빵빵한 엉덩이 
+b: 변태법 제 74.5절 1조 : 다음 두 항을 변태처럼 쳐다보는 인간은 2조와 같이 정의한다. 1항: 근육질 어깨 2항: 빵빵한 엉덩이 
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
@@ -750,7 +745,6 @@ b: **나비효과!** 그거 생분해성 플라스틱 컵이야?
 
 b: **쨔잔, 매립지에 독이 유출되어 어린 아이 사망에 이르러**
 
-//BAM, A LANDFILL LEAKS POISON AND KILLS A KID
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
@@ -760,7 +754,6 @@ b: 혹시 땀이 송골송골 나고 심장이 쿵쾅대니?
 
 b: **쨘, 너 때문에 국민건강보험공단이 파산해버려서 수만명이 사망에 이르러**
 
-//BAM, YOU BANKRUPT OUR HEALTHCARE SYSTEM AND MILLIONS DIE
 
 `_.a2_attack_3 = "bad";`
 
@@ -778,13 +771,11 @@ b: 이 쾌락 좀비들은 중얼거리면서 네 쪽으로 비틀거리며 오�
 
 b: 좋아요오 눌러줘어어
 
-//LIIIIIKES. LIIIIIIIIIIKES.
 
 `bb({body:"scream_a_1"})`
 
 b: 그러나 널 깨물고는 널 **우동사리만 든 놈**이나 **골빈년**으로 만들어버리고 말 거야! 
 
-//Then they'll BITE YOU and turn you into a BRAINLESS BRO and/or THOUGHTLESS THOT!
 
 `_.a2_attack_3 = "bad";`
 
@@ -1100,12 +1091,10 @@ attack("10p", "harm");
 `bb({body:"normal", mouth:"normal", eyes:"normal_r"});`
 
 b: 네 근본적인 동기 부여는 도파민에서 오고, 네 풍부한 기쁨들은 세로토닌에서 오지.
-//Your deepest motivations are dopamine, your richest joys are serotonin.
 
 `bb({body:"one_up"});`
 
 b: 네 기억들은 시냅스 연결의 가중치고, 네 판단은 오류에 취약한 전기 신호들이야.
-//Your memories are synaptic weights, your reason is fault-prone electrical signals.
 
 `bb({eyes:"normal", body:"normal"});`
 
@@ -1408,7 +1397,6 @@ bb({body:"frazzled", mouth:"frazzled", eyes:"frazzled"});
 h: 으음, 이거 장난 아닌데!
 
 h: "닥쳐랏 마음의 소리"같은 감칠맛에다가 "이제 아무것도 안느껴져"같은 미묘한 끝맛인데!
-//A full-bodied flavor of "shut your mind up," with a subtle aftertaste of "never feel anything ever again"!
 
 b: 이거 안 좋아, 인간. 정말, 정말 안 좋아.
 
@@ -1549,9 +1537,9 @@ b: 미안해, 인간.
 
 n: *마무리 일격*
 
-[{전투: 빨강머리를 때린다.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
+[전투: 빨강머리를 때린다.](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{도주: 이 장소를 벗어난다.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
+[도주: 이 장소를 벗어난다.](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2j_fight
 
@@ -1743,10 +1731,9 @@ sfx("hit");
 h: 다음 주에 파티 또 갈 거야.
 
 h: 다음 번에는 *널 이겨버리는 것 만으로 끝나는 게 아니라...
-//The next time we fight, I'm not just going to *defeat* you...
 
 h: ^존나^ *죽여버릴 거야*.
-//I'm going to ^fuck^ing *kill* you.
+
 
 ```
 Game.clearText();
