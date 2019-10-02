@@ -417,8 +417,6 @@ h: 이, 뭐라고? *보다압?*
 
 b: 이래서 내가 *존재* 한다니까! 인간은 자기 스스로 지키도록 맡길 수가 없으니까!
 
-//This is exactly why I *exist!* Because humans can't be trusted to protect themselves!
-
 b: 그동안 내 일생을 바치면서까지 모자란 너를 지키려고 노력했는데 지금 너는-
 
 ```
@@ -458,7 +456,6 @@ hong({ body:"yell_1", mouth:"yell", eyes:"blank" });
 
 h: 와 진짜, ^씨발^ 고작 그 정도로 다 표현이 안되지!
 
-//Oh WOW is that the biggest *^fuck^ing* understatement of the century!
 
 `hong({ body:"yell_2" });`
 
@@ -468,7 +465,6 @@ h: 그래, 이 피칠갑된 썩어빠진 ^씹새끼야!^ 네가 ^존나^ 망쳤�
 
 h: 더 말할 뻔한 얘기는 이제 없나? 
 
-//Any other remarks, Captain Obvious?
 
 [그렇지만 나한테 복수하는 건 정답이 아니라고!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
