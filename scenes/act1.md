@@ -1175,7 +1175,7 @@ h: 그래도 계속 무시하는 건 좀 무례하지 않나?
 
 `bb({eyes:"normal_right"});`
 
-b: 하긴, 다른 사람들도 *우릴* 무시하니까.
+b: 다른 사람들도 *우릴* 무시하는데 뭐 
 
 
 ```
@@ -1266,10 +1266,10 @@ b: 위험! 위험! 위험! 위험! 위험! 위험! 위험! 위험! 위험! 위�
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"})`
 
-[다른 사람들에게 *이용*당할 거야](#act1f_used_by_others)
+[이러다 다른 사람들에게 *이용*당할 거야](#act1f_used_by_others)
 
 
-[다른 사람들을 *이용*하는 거야](#act1f_using_others)
+[이건 다른 사람들을 *이용*하는 거야](#act1f_using_others)
 
 
 [저 사람은 연쇄 살인마야](#act1f_killer)
@@ -1349,7 +1349,7 @@ bb({eyes:"narrow", mouth:"small"});
 Game.FORCE_TEXT_DURATION = 2100;
 ```
 
-b: ♫ ^창녀^가 될 거야-
+b: ♫ ^^가 될 거야-
 
 
 (...1500)
@@ -1459,15 +1459,15 @@ h: 난 더 이상 못 하겠어
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 h:
-{{if _.fifteencigs}}"외로움은 우릴 해쳐"... {{/if}}
+{{if _.fifteencigs}}"외로움은 우릴 해친다니"... {{/if}}
 {{if _.parasite}}"우린 사회의 기생충"... {{/if}}
-{{if _.whitebread}}"흰 빵은 우릴 죽일 거야"... {{/if}}
+{{if _.whitebread}}"흰 빵은 우릴 죽일 거라니"... {{/if}}
 {{if _.subtweet}}"우리 뒷담화를 하고 있어"... {{/if}}
 {{if _.badnews}}"세상이 멸망해"... {{/if}}
 {{if _.hookuphole}}"고독사로 죽을 거야"... {{/if}}
 {{if _.serialkiller}}"저 사람들은 연쇄살인마"... {{/if}}
 {{if _.catmilk}}"고양이는 우유를 소화 못 해"... {{/if}}
-{{if _.pokemon}}"^개좆^같은 노래 패러디"... {{/if}}
+{{if _.pokemon}}"^게다가 개좆^같은 노래 패러디까지"... {{/if}}
 
 h: 난 그냥 내 삶을 살고 싶어.
 
@@ -1678,7 +1678,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: 으아아아 우린 다 죽을 거야 으아아아아아아
+b: 으아아아 모두들 우릴 미워해 으아아아아아아
 
 ```
 hong({body:"3_defeated1"});
@@ -1740,17 +1740,17 @@ n: 엔딩을 선택해 주세요
 n: *마무리 일격*
 //*FINISH THEM*
 
-[{전투: 짜증나는 폰을 혼쭐내준다!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
+[{투쟁: 짜증나는 폰을 혼쭐내준다!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
 
-[{도주: 몸을 공처럼 말고 흐느낀다!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
+[{도피: 몸을 공처럼 말고 흐느낀다!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
 
 
 # act1i_phone
 
 `bb({mouth:"normal", eyes:"narrow"})`
 
-b: 네 폰이 공황발작을 일으키고 있었어!
+b: 네 폰 때문에 공황발작을 일으키고 있었어!
 
 
 `bb({eyes:"anger"})`
