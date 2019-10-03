@@ -1409,12 +1409,12 @@ b: 가ㅈ--
 
 ```
 bb({eyes:"wat", mouth:"small"});
-hong({body:"2_you"});
+hong({body:"2_fuck"});
 ```
 
 h: *^좆^.*
 
-`hong({body:"2_fuck"});`
+`hong({body:"2_you"});`
 
 h: 까.
 
