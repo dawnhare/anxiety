@@ -389,7 +389,7 @@ b: 그저 상처받은 떠돌이 개일 뿐이지.
 
 `bb({eyes:"sad"})`
 
-b: 우린 힘든 일을 함께 겪었어. 어쩌면 홀대 받거나 트라우마가 있는지도 몰라. 그러니 가끔 내가 과하게 반응하면서 이렇게,
+b: 우린 힘든 일을 함께 겪었어. 어쩌면 홀대 받거나 트라우마가 있는지도 몰라. 그러니 가끔 내가 과하게 반응하면서 이렇게 짖어대는 거지,
 
 ```
 sfx("yaps", {volume:0.6});
@@ -488,7 +488,7 @@ b: 더 생각할 건 없어, 인간?
 
 [그럼 *더 많은* 위험에 노출되어 보자.](#act4_harm_exposure)
 
-[고마워.](#act4_thanks) `_.thanks_for = "physical safety";`
+[고마워.](#act4_thanks) `_.thanks_for = "신체의 안전";`
 
 # act4_harm_skills
 
@@ -613,7 +613,7 @@ bb({ eyes:"closed" });
 hong({ eyes:"normal" });
 ```
 
-b: 네 말을 일관되게 해줘서 한번 더 고마워.
+b: 네 말을 참 재귀적으로 일관되게 해줘서 고마워.
 
 (#act4_something_else)
 
@@ -835,7 +835,7 @@ h: 에이, 난 그냥 연약한 대학생 꼬맹이고 넌 크고 무서운 늑�
 
 `hong({ eyes:"normal", body:"point" });`
 
-h: 아냐, 그건 말 하지 마.
+h: 아냐, 됐어 그냥 말하지 마.
 
 (#act4_something_else)
 
@@ -874,7 +874,7 @@ b: 더 생각할 건 없어, 인간?
 
 [사람들이 나 좋아할 거 같은데. 한번 알아볼까?](#act4_alone_experiment)
 
-[고마워.](#act4_thanks) `_.thanks_for = "social belonging";`
+[고마워.](#act4_thanks) `_.thanks_for = "사회적 ";`
 
 # act4_alone_skills
 
@@ -918,7 +918,7 @@ b: 피해자의 감정을 잘 읽는 연쇄살인마도 사실상 굉장한 "공
 
 `bb({ eyes:"annoyed" });`
 
-b: 연쇄살인마 찰스 맨슨도 친구가 많고 영향력 있는 사람이었잖아? 
+b: 왜 유명한 연쇄살인마들 보면 친구가 많고 영향력 있는 사람들이잖아? 
 
 `hong({ eyes:"annoyed", body:"chin" });`
 
@@ -1176,7 +1176,7 @@ b: 더 생각할 건 없어, 인간?
 
 [그래 망가져있네. 받아들여 보자.](#act4_bad_accept)
 
-[고마워.](#act4_thanks) `_.thanks_for = "moral well-being";`
+[고마워.](#act4_thanks) `_.thanks_for = "도덕적  ";`
 
 # act4_bad_fix
 
@@ -1334,7 +1334,7 @@ b: 방금 그 제 4의 벽은 오래 안 갔네.
 
 `hong({ body:"point" });`
 
-h: 정신 건강 같은 건 서사 관습보다 더 중요하거든.
+h: 정신 건강 같은 건 서사적 관습보다 더 중요하거든.
 
 (#act4_something_else)
 
@@ -1801,7 +1801,7 @@ publish("act4", ["hong_closer", 1]);
 publish("act4", ["bb_closer", 4]);
 ```
 
-b: 사람들은 감정을 마치 "전범"처럼 "화해"해야 된다고 해.
+b: 사람들은 감정을 무슨 "전범"인것 마냥 "화해"해야 된다고 해.
 
 `publish("act4", ["bb_closer", 7]);`
 
@@ -1813,7 +1813,7 @@ b: 네 생리적 욕구를 알려주는 배고픔과 갈증처럼, 나도 좋은
 
 `publish("act4", ["bb_closer", 8]);`
 
-b: 안전해지고자 하는, 소속감을 가지고자 하는, 더 나은 사람이 되고자 하는, 심리적 욕구를 알려주고 싶어.
+b: 안전해지고자 하는, 소속감을 가지고자 하는, 더 나은 사람이 되고자 하는, 심리적 욕구를 알려주고 싶다구.
 
 `publish("act4", ["bb_closer", 1]);`
 
