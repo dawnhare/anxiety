@@ -1192,6 +1192,7 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
 b: 중요한 건 우린 고독사로 죽을 거야!
+
 ```
 hong({mouth:"shock", eyes:"shock"});
 attack("18p", "alone");
