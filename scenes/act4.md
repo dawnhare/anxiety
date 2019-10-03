@@ -617,7 +617,6 @@ b: 네 말을 일관되게 해줘서 한번 더 고마워.
 
 (#act4_something_else)
 
-
 # act4_harm_exposure
 
 `bb({ mouth:"scream_talk", eyes:"scream", MOUTH_LOCK:true });`
@@ -786,7 +785,6 @@ b: 내게 *고맙다고*한 적은 이번이 처음이야.
 
 h: 으이구, 이 털복숭이 겁쟁이 늑대.
 
-
 (#act4_something_else)
 
 # act4_thanks_2
@@ -840,9 +838,6 @@ h: 에이, 난 그냥 연약한 대학생 꼬맹이고 넌 크고 무서운 늑�
 h: 아냐, 그건 말 하지 마.
 
 (#act4_something_else)
-
-
-
 
 # act4_alone
 
@@ -1075,7 +1070,6 @@ h: 안돼.
 
 (#act4_something_else)
 
-
 # act4_alone_experiment_cheap
 
 b: 바리스타한테 인사하는 게 인싸 올림픽 금메달감은 아니잖아.
@@ -1136,8 +1130,6 @@ bb({ eyes:"annoyed", mouth:"smile" });
 h: 그, 심리상담가들 책자에 나온 "대인관계 기술" 같은 ^지랄염병^ 있잖아. 
 
 (#act4_something_else)
-
-
 
 # act4_bad
 
@@ -1274,7 +1266,6 @@ b: 결함이 전혀 없다면, "예술"은 밋밋하고 재미없는 게 되지 
 
 b: 그리고, 그걸 가진 친구들과는 전혀 이어질 수 없는 걸까?
 
-
 `bb({ eyes:"sad", body:"chest" })`
 
 b: 게다가 언제라도 이런 삶에 만족하게 되면, 더 재미있는 것들을 위해 노력하지 않게 될 지도 모르잖아?
@@ -1347,7 +1338,6 @@ h: 정신 건강 같은 건 서사 관습보다 더 중요하거든.
 
 (#act4_something_else)
 
-
 # act4_bad_accept
 
 ```
@@ -1383,7 +1373,6 @@ b: 왜 자립적 산업-복합체는 무슨 백기를 흔드는 게 무슨 엄�
 `bb({ eyes:"annoyed", body:"normal" });`
 
 h: 내 생각에 나쁜 걸 받아들이라는 의미는, 나쁜 게 있다는 걸 직시하고, 해결하기 쉽지 않다는 걸 인정하라는 거 같아.
-
 
 h: 변화하려는 의지를 꼭 포기하라는 뜻은 아니라는 거야.
 
@@ -1484,9 +1473,6 @@ b: 그럼 "받아들인다" 같은 애매하고 헷갈리는 용어가 아니라
 h: 상담사들도 단어 선정은 별로인가 봐.
 
 (#act4_something_else)
-
-
-
 
 # act4_something_else
 

@@ -206,7 +206,7 @@ h2: 그래, 틀렸어.
 publish("act3",["roofhunter",13]);
 publish("act3",["roofhong",15]);
 music('battle_dark', {volume:1.0}, function(){
-	music('battle_dark_loop');
+    music('battle_dark_loop');
 });
 ```
 
@@ -222,8 +222,6 @@ publish("act3",["dd",6]);
 r: ^씨바^ 바로 그거야! 널 믿어, 짜샤! 죽여버리라고! <3
 
 (#act3a)
-
-
 
 # act3a
 
@@ -327,7 +325,6 @@ bb({ eyes:"sad" });
 
 [](#act3_fork) `_.SPECIAL_ATTACK="bad"; Game.OVERRIDE_CHOICE_LINE=true`
 
-
 # act3_fork
 
 ```
@@ -418,9 +415,7 @@ h: 이, 뭐라고? *보다압?*
 
 `bb({ eyes:"angry" });`
 
-
 b: 이래서 내가 *존재* 하는 거야! 인간은 자기 스스로 지키도록 맡길 수가 없으니까!
-
 
 b: 그동안 내 일생을 바치면서까지 모자란 너를 지키려고 노력했는데 지금 너는-
 
@@ -461,7 +456,6 @@ hong({ body:"yell_1", mouth:"yell", eyes:"blank" });
 
 h: 와 진짜, ^씨발^ 고작 그 정도로 다 표현이 안되지!
 
-
 `hong({ body:"yell_2" });`
 
 h: 그래, 이 피칠갑된 썩어빠진 ^씹새끼야!^ 네가 ^존나^ 망쳤고 말고!
@@ -472,11 +466,9 @@ h: 더 말할 뻔한 얘기는 이제 없나?
 
 [그렇지만 나한테 복수하는 건 정답이 아니야!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
-
 [하지만 이번엔 내가*정말로* 옳아!](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
 [네게 상처를 줬어.](#act3_good_2a)
-
 
 # act3_good_1_fail_revenge
 
@@ -498,8 +490,6 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 (#act3_bad_2)
 
-
-
 # act3_good_1_fail_harm
 
 b: 부탁이야, 그 병 내려놓고 이제-
@@ -520,9 +510,6 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 (#act3_bad_2)
 
-
-
-
 # act3_bad_2
 
 `bb({ eyes:"sad" });`
@@ -540,7 +527,6 @@ h: 나라면 이 다음 할 말을 신중하게 고를 거야.
 [내가 줄곧 옳았어.](#act3_bad_2_right)
 
 [미안해.](#act3_good_2b) `bb({mouth:"sorry", eyes:"sorry_down"});`
-
 
 # act3_bad_2_jump
 
@@ -566,8 +552,6 @@ b: 잠깐만! 안돼! 방금 그건 반심리학이야! 내가 말한 거의 *�
 
 (#act3_bad_3)
 
-
-
 # act3_bad_2_right
 
 `bb({ eyes:"angry" });`
@@ -582,7 +566,6 @@ h: 네가 *나를* 믿어준 적이 없으니까
 
 (#act3_bad_3)
 
-
 # act3_bad_2_terrible
 
 `bb({ eyes:"angry" });`
@@ -596,8 +579,6 @@ b: 지켜주려 노력하는 경비 늑대를 싫어하는 게 아니라! 근데
 h: 틀렸어 이 ^개새끼^야
 
 (#act3_bad_3)
-
-
 
 # act3_bad_3
 
@@ -646,8 +627,6 @@ h: 그 무엇도, 전혀 느껴지지 않아.
 
 (#act3_end)
 
-
-
 # act3_good_2a
 
 `bb({mouth:"sorry", eyes:"sorry_down"});`
@@ -673,8 +652,6 @@ h: 진작에 알았으면 그동안 이렇게까지 힘들지도 않았을 거�
 
 (#act3_good_2q)
 
-
-
 # act3_good_2b
 
 `hong({ body:"normal", mouth:"angry", eyes:"look_right" });`
@@ -689,7 +666,6 @@ h: *뭐가* 그렇게 미안한데?
 
 (#act3_good_2q)
 
-
 # act3_good_2q
 
 `bb({mouth:"sorry", eyes:"sorry"});`
@@ -702,7 +678,6 @@ h: *뭐가* 그렇게 미안한데?
 (#act3_good_2q_not_already_apologized)
 {{/if}}
 
-
 # act3_good_2q_already_apologized
 
 `hong({ body:"normal", mouth:"angry", eyes:"less_angry" });`
@@ -713,7 +688,6 @@ h: *뭐가* 그렇게 미안한데?
 
 [그저... 미안해.](#act3_good_4)
 
-
 # act3_good_2q_not_already_apologized
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" }, 0);`
@@ -723,8 +697,6 @@ h: *뭐가* 그렇게 미안한데?
 [널 존중해 주지 않아서 미안해.](#act3_good_3_respect)
 
 [널 아프게 해서 미안해.](#act3_good_3_hurt)
-
-
 
 # act3_good_3_protector
 
@@ -746,8 +718,6 @@ b: I'm sorry.
 
 (#act3_good_4)
 
-
-
 # act3_good_3_respect
 
 `bb({eyes:"sorry_down"});`
@@ -764,8 +734,6 @@ b: 미안해.
 
 (#act3_good_4)
 
-
-
 # act3_good_3_hurt
 
 `bb({eyes:"sorry_down"});`
@@ -781,7 +749,6 @@ b: 난 정말 나쁜 개였어.
 b: 미안해.
 
 (#act3_good_4)
-
 
 # act3_good_4
 
@@ -819,14 +786,6 @@ n: *무승부*
 
 (#act3_end)
 
-
-
-
-
-
-
-
-
 # act3_end
 
 ```
@@ -843,11 +802,6 @@ Game.FORCE_CANT_SKIP = true;
 {{if _.a3_ending=="jump"}}
 (#act3_jump)
 {{/if}}
-
-
-
-
-
 
 # act3_walkaway
 
@@ -989,9 +943,6 @@ Game.WORDS_HEIGHT_BOTTOM = -1;
 
 (#act4)
 
-
-
-
 # act3_jump
 
 ```
@@ -1015,6 +966,7 @@ publish('hong-next');
 publish("act3",["dd",4]);
 publish("act3",["roofhunter",28]);
 ```
+
 (...125)
 
 `publish("act3",["roofhunter",29]);`
