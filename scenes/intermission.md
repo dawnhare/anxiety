@@ -16,13 +16,13 @@ Game.FORCE_CANT_SKIP = true;
 publish("show_stats");
 ```
 
-n2: FEARS THIS ROUND:
+n2: 이번 라운드에서 받은 공포:
 
-i: #harm# *BEING HARMED:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
+i: #harm# *해를 입음:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
 
-i: #alone# *BEING UNLOVED:* {{_.INTERMISSION_STAGE==1 ? _.attack_alone_ch1 : _.attack_alone_ch2}}
+i: #alone# *사랑받지 않음:* {{_.INTERMISSION_STAGE==1 ? _.attack_alone_ch1 : _.attack_alone_ch2}}
 
-i: #bad# *BEING A BAD PERSON:* {{_.INTERMISSION_STAGE==1 ? _.attack_bad_ch1 : _.attack_bad_ch2}}
+i: #bad# *나쁜 사람:* {{_.INTERMISSION_STAGE==1 ? _.attack_bad_ch1 : _.attack_bad_ch2}}
 
 
 ```
@@ -31,7 +31,7 @@ Game.FORCE_CANT_SKIP = false;
 Game.CLICK_TO_ADVANCE = true;
 ```
 
-n5: (game auto-saved! it's ok to quit & continue later)
+n5: (자동 저장 완료! 게임을 껐다가 나중에 이어서 할 수 있습니다!)
 
 ```
 Game.clearAll();
