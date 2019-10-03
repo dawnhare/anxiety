@@ -8,7 +8,7 @@ SceneSetup.act1();
 
 n: 그리고 이것은 인간의 불안감입니다
 
-n: _당신_ 이 사람의 불안감입니다
+n: _당신이_ 이 사람의 불안감입니다
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -32,7 +32,7 @@ n: 당신의 임무는 인간을 *위험* 으로부터 보호하는 것입니다
 
 n: 사실, 이 게임을 다시 시작하는 것만으로도 이미 *위험* 에 빠졌습니다
 
-n: 어서 주의 주세요!
+n: 어서 주의를 주세요!
 
 ```
 sfx("squeak");
@@ -77,12 +77,12 @@ h: 뭐 최소한에 우리를 지붕에서 떨어트리진 않을 테니--
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: **우린 지붕에서 떨어질 거야.**
+b: 우린 지붕에서 떨어질 거야.
 {{/if}}
 
 `bb({body:"fear"});`
 
-b: **이 모든 새로운 끔찍한 일들이 우리한테 일어나고 나면--**
+b: 이 모든 새로운 끔찍한 일들이 우리한테 일어나고 나면--
 
 (#act1_replay_end)
 
@@ -136,7 +136,7 @@ b: 우리는--
 
 `bb({body:"panic"})`
 
-b: **죽을 거야아아아아아아아**
+b: 죽을 거야아아아아아아아
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -284,7 +284,7 @@ bb({body:"panic", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: **죽을 거야아아아아아아아**
+b: 죽을 거야아아아아아아아
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -319,7 +319,7 @@ b: 가공된 밀을 먹으면 혈당이 너무 높아져서 팔다리를 잘라�
 
 `bb({body:"panic"})`
 
-b: **죽을 거야아아아아아아아**
+b: 죽을 거야아아아아아아아
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -726,7 +726,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: **고양이는 우유를 소화 못 해 이런 학대 영상을 보고 즐기다니 우리는 끔찍한 사람이야**
+b: 고양이는 우유를 소화 못 해 이런 학대 영상을 보고 즐기다니 우리는 끔찍한 사람이야!
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
