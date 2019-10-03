@@ -874,7 +874,7 @@ b: 더 생각할 건 없어, 인간?
 
 [사람들이 나 좋아할 거 같은데. 한번 알아볼까?](#act4_alone_experiment)
 
-[고마워.](#act4_thanks) `_.thanks_for = "사회적 ";`
+[고마워.](#act4_thanks) `_.thanks_for = "사회적 소속감";`
 
 # act4_alone_skills
 
@@ -1176,7 +1176,7 @@ b: 더 생각할 건 없어, 인간?
 
 [그래 망가져있네. 받아들여 보자.](#act4_bad_accept)
 
-[고마워.](#act4_thanks) `_.thanks_for = "도덕적  ";`
+[고마워.](#act4_thanks) `_.thanks_for = "도덕적 건강";`
 
 # act4_bad_fix
 
