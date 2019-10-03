@@ -16,7 +16,6 @@
 
 (#act2-preamble-tinder)
 
-
 # act2-preamble-news1
 
 ```
@@ -71,7 +70,6 @@ a: 으, 그러게 말이야.
 
 (#act2-preamble-end)
 
-
 # act2-preamble-news2
 
 ```
@@ -79,6 +77,8 @@ publish("act2",["dee",3]);
 ```
 
 s: 근데 그 뉴스 완전 쫙 퍼진 거 봤어? 
+
+
 
 ```
 publish("act2",["dee",2]);
@@ -120,14 +120,15 @@ a: 으, 그러게 말이야.
 
 (#act2-preamble-end)
 
-
 # act2-preamble-cat
 
 ```
 publish("act2",["dee",3]);
 ```
 
+
 s: 그러니까 내 말은, 밈 공업 단지가 고양이를 착취하는 거지.
+
 
 ```
 publish("act2",["dee",2]);
@@ -142,7 +143,9 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
+
 a: 한번 자세히 말해 줘 봐.
+
 
 ```
 publish("act2",["dum",0]);
@@ -157,7 +160,9 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
+
 s: 그게, 어제 누가 우유 마시는 고양이 GIF 리트윗한 걸 봤는데 말야.
+
 
 ```
 publish("act2",["dee",3]);
@@ -174,7 +179,6 @@ publish("act2",["dum",3]);
 a: 으, 그러게 말이야.
 
 (#act2-preamble-end)
-
 
 # act2-preamble-tinder
 
@@ -241,7 +245,6 @@ a: 으, 그러게 말이야.
 
 (#act2-preamble-end)
 
-
 # act2-preamble-hookuphole
 
 ```
@@ -263,7 +266,6 @@ a: 으, 그러게 말이야.
 
 (#act2-preamble-end)
 
-
 # act2-preamble-pokemon
 
 ```
@@ -282,7 +284,6 @@ publish("act2",["dum",3]);
 a: 거시기, 넌 내 거야!™
 
 (#act2-preamble-end)
-
 
 # act2-preamble-end
 
@@ -316,7 +317,9 @@ b: 우리가 슬픈 머저리처럼 굴고 있어서 분위기가 다운되고 �
 
 `bb({eyes:"shock", body:"two_up"})`
 
+
 b: 좋은 분위기를 망치고 있잖아! 일급 분위기 살인죄를 저지르고 있다고!
+
 
 `bb({eyes:"normal", body:"normal"})`
 
@@ -337,7 +340,9 @@ b: 쟤넨 우리보다 더 매력적이야. 그 말은 우리가 *바라보기�
 
 `bb({eyes:"shock", body:"two_up"})`
 
+
 b: 극혐이라는 거야.
+
 
 `bb({body:"normal"})`
 
@@ -354,11 +359,12 @@ _.a2_attack_1 = "bad";
 
 `bb({body:"one_up", eyes:"normal_r"})`
 
-b: 모든 것의 종국에, 우리가 의미있는 무언가를 할 수 있을까?
+
+b: 과연 우리가 의미있는 무언가를 할 수 있긴 할까?
 
 `bb({body:"normal", eyes:"sad"})`
 
-b: 인류에 대한 공헌? 모든 업적들은 람세스 2세의 길을 망칠 뿐이야. 사랑? 죽음이 언제나 갈라버릴 거야. 
+b: 인류에 대한 공헌? 모든 업적들은 시간이 지나면 다 사라져버리는 걸. 사랑? 죽음이 언제나 갈라버릴 거야. 
 
 `bb({eyes:"sad_r"})`
 
@@ -375,6 +381,7 @@ b: "그렇지만 죽음 덕분에 삶에 감사해할 수 있다"라고? 노예�
 `bb({body:"one_up"})`
 
 b: "스스로 의미를 만들어내야 한다"고? 그래, 사이비랑 음모론자들이 하는 짓이 그거잖아!
+
 
 `bb({eyes:"shock", body:"two_up"})`
 
@@ -407,16 +414,21 @@ b: *헉!!*
 
 `bb({mouth:"small_talk"})`
 
+
 b: 이건 꼭 경고해야 해!
+
 
 [*더 많은* 비슷한 위험을!](#act2b_louder)
 
 {{if _.a2_first_danger=="social"}}
 [*또 다른* 사회적 위험을!](#act2b_different_social)
+
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
 [*또 다른* 도덕적 위험을!](#act2b_different_moral)
+
+
 {{/if}}
 
 [위험을 무시하다니! 그건 위험하다구!](#act2b_ignore)
@@ -441,7 +453,9 @@ b: 이건 꼭 경고해야 해!
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
+
 b: 감정은 전염되는 거야! 여기서 벗어나지 않으면 네 정신병이 사람들에게 모두 옮을 거야!
+
 
 b: 그리고 넌 슬픈 찐따 증후군이라는 치명적인 병을 만들겠지!
 
@@ -486,16 +500,19 @@ sfx("gravel");
 
 (...501)
 
-b: 변태법 제 74.5절 1조 : 다음 두 항을 변태처럼 쳐다보는 인간은 2조와 같이 정의한다. 1: 근육질 어깨 2: 빵빵한 엉덩이 
+b: 변태법 제 74.5절 1조 : 이 두 사항(1: 근육질 어깨 2: 빵빵한 엉덩이)을 변태처럼 쳐다보는 인간은 다음과 같이 정의한다.  
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
 b: "대빵 역겨운 변태 쓰레기"!
 
+
 ```
 _.a2_second_danger = 'law';
 _.a2_attack_2 = "bad";
+
 _.a2_hoodie_callback = "법이 뭐 어쩌니 하고";
+
 ```
 
 (#act2c)
@@ -503,6 +520,7 @@ _.a2_hoodie_callback = "법이 뭐 어쩌니 하고";
 # act2b_louder_meaning
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
+
 
 b: 설령 삶에 고귀한 의미를 찾는다 해도 *여전히* 엉망진창이 될 여지는 있어!
 
@@ -522,10 +540,13 @@ b: 수백만명의 사람들을 죽이기 위해 1차 세계대전에 사용된 
 
 b: 나비효과야, 인간! 지금 이 순간 얼마나 많은 사람들이 우리 때문에 죽어가고 있을까!
 
+
 ```
 _.a2_second_danger = 'butterfly';
 _.a2_attack_2 = "bad";
+
 _.a2_hoodie_callback = "1차 세계대전 같은 걸";
+
 ```
 
 (#act2c)
@@ -536,7 +557,8 @@ _.a2_hoodie_callback = "1차 세계대전 같은 걸";
 
 `bb({eyes:"normal_r", body:"point", mouth:"normal"})`
 
-b: 널 아무도 안 좋아하는 것보다 더 안 좋은 게 뭐게? 모두들 널 좋아하는 거야.
+
+b: 사실 널 아무도 안 좋아하는 것보다 더 안 좋은 게 뭐게? 모두들 널 좋아하는 거야.
 
 `bb({body:"one_up", eyes:"suspect", mouth:"normal"})`
 
@@ -548,12 +570,15 @@ b: 얕은 사이를 유지하는 얕은 친구들에 둘러싸인 얕은 인생�
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: 인간, 저 쾌락 좀비들 중 하나가 되기 전에 어서 도망쳐야 해!
+b: 인간, 저 쾌락 좀비들 처럼 되기 전에 어서 도망쳐야 해!
+
 
 ```
 _.a2_second_danger = 'zombies';
 _.a2_attack_2 = "alone";
+
 _.a2_hoodie_callback = "좀비 나부랭이라고";
+
 ```
 
 (#act2c)
@@ -564,15 +589,16 @@ _.a2_hoodie_callback = "좀비 나부랭이라고";
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: 지금 이 시간에 사람들이 학살과 기근으로 죽어가고 있는데 우린 파티를 즐기고 있어!
+
+b: 지금 이 시간에도 사람들이 학살과 기근으로 죽어가고 있는데 우린 파티나 즐기고 있어!
 
 `bb({body:"point", eyes:"closed", mouth:"small"})`
 
-b: 옛 말에 "아무것도 안 하는 게 더 나쁘다"는 말 있잖아.
+b: 옛 말에 "악의 승리에 필요한 유일한 조건은 선한 사람들이 수수방관하는 것이다."는 말 있잖아.
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: 우리 지금 아무것도 안 하고 있어!
+b: 우리 지금 아무것도 안 하고 있잖아!
 
 `bb({mouth:"small"})`
 
@@ -581,7 +607,9 @@ b: 파티를 즐기면, 히틀러를 도와주는 셈이야.
 ```
 _.a2_second_danger = 'hitler';
 _.a2_attack_2 = "bad";
+
 _.a2_hoodie_callback = "히틀러 어쩌구라고";
+
 ```
 
 (#act2c)
@@ -591,6 +619,7 @@ _.a2_hoodie_callback = "히틀러 어쩌구라고";
 `_.a2_first_choice = "ignore"`
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
+
 
 b: 화재경보기 배터리를 빼 놓으면 안전할 거라 생각하는 거야?
 
@@ -602,10 +631,13 @@ b: 어디서 불 났는지도 모를걸! 곧 슬슬 졸리더니 그만--
 
 b: 죽을거야아아아아아
 
+
 ```
 _.a2_second_danger = 'ignore';
 _.a2_attack_2 = "harm";
+
 _.a2_hoodie_callback = "불이 났네 마네";
+
 ```
 
 (#act2c)
@@ -675,11 +707,12 @@ b: 그럼 이제 경고할 건...
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
+
 b: 넷플릭스랑 배달 음식으로 격리시키는 걸로는 안돼! 배달원이 감염되잖아!
 
 `bb({body:"one_up", mouth:"small"})`
 
-b: 캐나다 유콘 지역 같은 허허벌판으로 가고, 드론으로 배달 음식을 받아야 해!
+b: 아무도 없는 시베리아 벌판으로 가고, 드론으로 배달 음식을 받아야 해!
 
 `bb({body:"two_up", mouth:"normal"})`
 
@@ -726,13 +759,16 @@ b: "대빵 역겨운 변태 쓰레기"이기 때문이다!
 
 `_.a2_attack_3 = "bad";`
 
+
 `_.a2_hoodie_callback = "법이 뭐 어쩌니 하고";`
+
 
 (#act2d)
 
 # act2c_louder_butterfly
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
+
 
 b: 나비 효과! 그거 일회용 플라스틱 컵이지?
 
@@ -746,11 +782,12 @@ b: 식은땀이 나고 심장이 마구 뛰지?
 
 `bb({body:"scream_a_1"})`
 
-b: 쨔잔! 의료기관이 파산해서 수백만의 사상자가 났어!
+b: 쨔잔! 너 때문에 국민건강보험공단이 파산해서 수백만의 사상자가 났어!
 
 `_.a2_attack_3 = "bad";`
 
 `_.a2_hoodie_callback = "나비 효과 같은 걸";`
+
 
 (#act2d)
 
@@ -758,7 +795,8 @@ b: 쨔잔! 의료기관이 파산해서 수백만의 사상자가 났어!
 
 `bb({body:"normal", mouth:"small", eyes:"angry"})`
 
-b: 저 쾌락 좀비들이 웅얼거리면서 우리한테 비틀거릴 거야.
+
+b: 저 쾌락 좀비들이 웅얼거리면서 우리한테 비틀대면서 다가올 거야.
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
@@ -772,13 +810,16 @@ b: 그러곤 널 물어서 빡대가리 아님 골빈년으로 만들 거야!
 
 `_.a2_hoodie_callback = "좀비 나부랭이라고";`
 
+
 (#act2d)
 
 # act2c_louder_hitler
 
 `bb({body:"scream_a_1"})`
 
+
 b: 저 나치스놈들이 거리를 활보하고 있어!
+
 
 `bb({body:"one_up", mouth:"smile", eyes:"happy"})`
 
@@ -786,11 +827,13 @@ b: "저 선한 작자들이 게으르게 *휴식*이라니 *힐링*이나 해줘
 
 `bb({body:"point", mouth:"smile", eyes:"happy_r"})`
 
+
 b: *예정대로 제4제국을 건설할 수 있겠어!*
 
 `_.a2_attack_3 = "bad";`
 
 `_.a2_hoodie_callback = "히틀러 어쩌구라고";`
+
 
 (#act2d)
 
@@ -798,7 +841,8 @@ b: *예정대로 제4제국을 건설할 수 있겠어!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal_r"})`
 
-b: 그러고 보니 말인데, 이 건물에 화재경보기가 있는지 없는지 모르지?!
+
+b: 그러고 보니 말인데, 이 건물에 화재경보기가 있는지 없는지도 모르지?!
 
 `bb({body:"two_up", mouth:"small", eyes:"normal"})`
 
@@ -812,21 +856,24 @@ b: 죽음이 다가오고 있는 것도 모를 거야! 이렇게 사라지겠지
 
 `_.a2_hoodie_callback = "불이 났네 마네";`
 
+
 (#act2d)
 
 # act2c_different_social
 
 `bb({body:"normal", mouth:"normal", eyes:"sad"})`
 
+
 b: 우리가 근본적으로 사랑받거나, 사랑할 수 없는 거면 어쩌지?
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: 이미 오래 전부터 마음 속 무언가가 영구적으로 고장난 거라면? 아니, 애초부터 그런 게 없었다면??
+b: 이미 오래 전부터 마음 속 무언가가 영구적으로 고장난 거라면? 아니, 애초부터 그런 것 마저 없었다면??
 
 `bb({body:"scream_a_1"})`
 
 b: 으아아아! 우린 망가졌어! 망가졌다고! 망가졌단 말이야! 망가졌-
+
 
 `_.a2_attack_3 = "alone";`
 
@@ -835,6 +882,7 @@ b: 으아아아! 우린 망가졌어! 망가졌다고! 망가졌단 말이야! �
 # act2c_different_moral
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
+
 
 b: 우리가 근본적으로 썩어있었다면 어쩌지?
 
@@ -850,6 +898,7 @@ b: 남들을 해치는 게 우리 본성이라면? 우리와 가까운 사람들
 
 b: 으아아아! 우린 망가졌어! 망가졌다고! 망가졌단 말이야! 망가졌-
 
+
 `_.a2_attack_3 = "bad";`
 
 (#act2d)
@@ -857,6 +906,7 @@ b: 으아아아! 우린 망가졌어! 망가졌다고! 망가졌단 말이야! �
 # act2c_punch
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
+
 
 b: 허투루 하는 소리가 아냐. 음료수에 약 타는 사람도 분명히 있어. 실제로 벌어지는 일이란 말이야.
 
@@ -871,6 +921,7 @@ b: 으아아아! 우리 죽어간다! 우린 죽을 거야! 이제 죽는다! �
 `_.a2_attack_3 = "harm";`
 
 `_.a2_hoodie_callback = "음료수 얘길";`
+
 
 (#act2d)
 
@@ -945,11 +996,12 @@ h: *나는 사랑받고 있어. 난 착해. 난 똑똑해. 난 아름다워. 난
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
+
 b: 자존감이 낮은 사람들에게는 *역효과*만 나! 
 
 `bb({body:"one_up", mouth:"small", eyes:"normal"})`
 
-b: 이건 무작위로 대조하고, 누가 무슨 그룹에 있었는지 모르는 실험자들을 데리고 잘 설계한 연구에서 나온 결관데,
+b: 이건 무작위대조시험에, 실험자들이 누가 무슨 그룹에 있었는지 모르도록 맹검법으로 잘 설계한 연구에서 나온 결관데,
 
 `bb({body:"two_up", mouth:"small", eyes:"normal_r"})`
 
@@ -962,6 +1014,7 @@ b: 출처: Wood 2009, Psychological Science. 구글 스칼라에서 찾아 봐, 
 `bb({body:"scream_b_1"})`
 
 b: 그리고 비과학적인 가짜 뉴스 그만 좀 퍼트려!!
+
 
 ```
 hong({body:"attacked"});
@@ -977,6 +1030,7 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
+
 b: 사람답게 크기 위해선 자기 자신의 잘못도 겸허히 볼 줄 알아야 해!
 
 `bb({body:"two_up", eyes:"suspect"})`
@@ -990,6 +1044,7 @@ b: 다행히, 이 충직한 경비 늑대님이 네 잘못을 경고해 줄 수 
 `bb({body:"scream_b_1"})`
 
 b: 전부 다 잘못됐어! 전부 다!!
+
 
 ```
 hong({body:"attacked"});
@@ -1013,7 +1068,9 @@ b: 넌 개개인의 사람들과 복잡한 문화들을 고작 품질 보장 마
 
 `bb({body:"scream_b_1"})`
 
-b: 인종차별하지 말라고, 이 사팔뜨기 자식아!
+
+b: 인종차별하지 말라고, 이 눈 째진 자식아!
+
 
 ```
 hong({body:"attacked"});
@@ -1033,7 +1090,9 @@ h: ^염병할^.
 
 h: 그거 알아? 넌 *논리적이지 않아*
 
-h: 모두들 감정이 비이성적이라는 걸 알아! 특히 공포는 더더욱 그러지!
+
+h: 모두들 감정이 비이성적이라는 걸 알아! 특히 공포는 더더욱!
+
 
 `hong({body:"facepalm_2"})`
 
@@ -1045,11 +1104,14 @@ h: 이렇게 늑대에 비유하는 것도 ^지랄^맞아! 넌 그냥 내 머리
 
 `hong({body:"cross", mouth:"cross"})`
 
+
 h: 그런데 왜 내가 존재하지도 않는 너 같이 ^존나^ 하찮고, 비이성적인 말을 들어야 하는 거지?!
+
 
 `bb({eyes:"sad", MOUTH_LOCK:true})`
 
 b: ...
+
 
 [윽, 인간, 말이 심하네.](#act2e_hurtful)
 
@@ -1067,6 +1129,7 @@ b: 알다시피 난 네 일부야. 그런 말을 하는 순간, *너 자신에�
 
 b: 왜 자기 자신을 스스로 때리는 거야, 인간? 자해하지 마!
 
+
 ```
 music(null);
 hong({body:"attacked"});
@@ -1081,6 +1144,7 @@ attack("10p", "harm");
 # act2e_rational
 
 `bb({body:"normal", mouth:"normal", eyes:"normal_r"});`
+
 
 b: 네 근본적인 동기 부여는 도파민에서 오고, 풍성한 기쁨은 세로토닌에서 와.
 
@@ -1100,6 +1164,7 @@ b: 우리 *둘 다* 비이성적이라면, 무언가를 이루거나 행복해�
 
 b: 으아아아! 우린 망가졌어! 망가졌다고! 망가졌단 말이야! 망가졌-
 
+
 ```
 music(null);
 hong({body:"attacked"});
@@ -1115,6 +1180,7 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"});`
 
+
 b: 잠깐만... 기분은 정당하니까, 언제나 감정을 받아들여야 한다고 그랬지.
 
 `bb({eyes:"suspect_r"});`
@@ -1128,6 +1194,7 @@ b: 이럴 수가, 그 동안 우릴 계속 속여온 거였어!
 `bb({body:"scream_a_1"})`
 
 b: 우리가 자립 공업 단지에 의존하게 만들기 위해 *모순*에게 먹이를 준 거구나!!
+
 
 ```
 music(null);
@@ -1158,6 +1225,7 @@ h: 무슨 일을 하든, 널 없앨 수는 없는 것 같--
 
 b: 글쎄 애초애 날 없애려 해서는 *안되나* 보지.
 
+
 `bb({body:"cry_2"});`
 
 b: 그러는 난 어떤 기분이겠어, 인간?!
@@ -1182,7 +1250,9 @@ b: 나도 이 일엔 젬병인 거 *알아*. 하지만 *노력 중*이야, 인�
 
 `bb({body:"cry_3"});`
 
+
 b: ...노력하고 있다구...
+
 
 `bb({body:"cry_6", mouth:"right", eyes:"cry_r_1"});`
 
@@ -1232,19 +1302,21 @@ publish("act2",["party_hunter",4]);
 publish("act2",["party_hong",14]);
 ```
 
+
 r: 그게, 어, 네 후드티에다가 {{_.a2_hoodie_callback}} 막 중얼거리더라구.
+
 
 ```
 publish("act2",["party_hunter",13]);
 publish("act2",["party_hong",15]);
 sfx("rustle", {volume:0.6});
 setTimeout(function(){
-	publish("act2",["party_hong",16]);
-	sfx("concrete_step3", {volume:0.6});
+    publish("act2",["party_hong",16]);
+    sfx("concrete_step3", {volume:0.6});
 },401);
 setTimeout(function(){
-	publish("act2",["party_hong",17]);
-	sfx("concrete_step4", {volume:0.6});
+    publish("act2",["party_hong",17]);
+    sfx("concrete_step4", {volume:0.6});
 },801);
 ```
 
@@ -1268,14 +1340,18 @@ r: 그 뭐냐, 어제 학교에서 누가 신경 쇠약에 걸려서 자기 폰�
 {{/if}}
 
 {{if _.act1_ending=="flight"}}
+
 r: 그 뭐냐, 어제 학교에서 누가 아르마딜로처럼 몸을 만 채로 대놓고 울었다 하더라!
+
 {{/if}}
 
 ```
 publish("act2",["party_hunter",2]);
 ```
 
+
 r: 잘 들어. 네 머리 속에 동물이 있다는 게 어떤 건지 나도 잘 알아.
+
 
 ```
 publish("act2",["party_hunter",8]);
@@ -1325,7 +1401,8 @@ sfx("rustle2");
 publish("act2",["party_hunter",11]);
 ```
 
-r: 나만의 조합으로 섞은 술이야. 사알짝 독하겠지만...이상한 건 안 들었어.
+r: 나만의 조합으로 섞은 술이야. 합법적인 것들 보다 사알짝 독하겠지만... 뭐 어때.
+
 
 ```
 publish("act2",["party_hunter",12]);
@@ -1386,7 +1463,9 @@ bb({body:"frazzled", mouth:"frazzled", eyes:"frazzled"});
 
 h: 으음, 이거 장난 아닌데!
 
+
 h: "닥쳐랏 마음의 소리"같은 감칠맛에, "이제 아무것도 안느껴져"같은 미묘한 끝맛!
+
 
 b: 이거 안 좋아, 인간. 정말, 정말 안 좋아.
 
@@ -1395,6 +1474,8 @@ b: 이거 안 좋아, 인간. 정말, 정말 안 좋아.
 [*역시* 심각하게 망가진 사람일 줄 알았어!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
 
 [아마 저기다 약도 탔겠지!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
+
+
 
 
 # act2h_opt1
@@ -1430,6 +1511,7 @@ hong({body:"back", mouth:"back"});
 bb({body:"panicked", mouth:"panicked", eyes:"panicked"});
 ```
 
+
 h: 상담받는 것보다 싸고 맛있어!
 
 b: 인간, 제발 멈춰!!
@@ -1437,6 +1519,7 @@ b: 인간, 제발 멈춰!!
 h: 히히히!
 
 h: 그래서 뭐 어쩔 건데, ^씹새꺄^?
+
 
 b: 정말 미안해, 인간
 
@@ -1499,7 +1582,7 @@ bb({ body:"normal", mouth:"normal", eyes:"sad" });
 attack("100p", _.SPECIAL_ATTACK);
 Game.FORCE_CANT_SKIP = false;
 setTimeout(function(){
-	publish("remove_special_attack");
+    publish("remove_special_attack");
 },30);
 ```
 
@@ -1515,6 +1598,8 @@ h: 내 시체가 보여. 실제로 죽는 느낌까지 알 수 있어.
 
 {{if _.SPECIAL_ATTACK=="alone"}}
 h: 날 역겨워하는 모두의 시선이 느껴져. 사람들이 이야기하는 내 험담까지 들려.
+
+
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="bad"}}
@@ -1525,15 +1610,19 @@ b: 미안해, 인간.
 
 n: *마무리 일격*
 
+
 [{전투: 빨강머리를 때린다.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
 
 [{도주: 이 장소를 벗어난다.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
+
 
 # act2j_fight
 
 `bb({ eyes:"angry" });`
 
+
 b: 저 싸이코패스가 널 이용하고 있었어!
+
 
 b: 널 타락시키고, 자기네들처럼 망가뜨리려 했단 말이야!
 
@@ -1544,6 +1633,7 @@ b: 저 자식을 때려! 혼이 쏙 빠질 정도로 패 버려!
 `bb({ body:"final_1" });`
 
 b: 때려 때려 때려 때려 때려 때려 때려 때려 때려 때려 때려 때려 때려 때려 때려 때려--
+
 
 `_.a2_ending = "fight";`
 
@@ -1560,6 +1650,7 @@ b: 게다가 너도 똑같이 만들려고 꼬셨어! 널 타락시키고 있어
 `bb({ body:"final_1" });`
 
 b: 나가 나가 나가 나가 나가 나가 나가 나가 나가 나가 나가 나가 나가 나가 나가 나가--
+
 
 `_.a2_ending = "flight";`
 
@@ -1632,6 +1723,7 @@ music('party1', {volume:0.6, fade:6});
 
 r: 내 스타일인데?
 
+
 r: 마음에 들어. 다음 주에도 찾아 와, 귀염둥이.
 
 ```
@@ -1667,7 +1759,9 @@ h2: 아니아니, 그냥, 어, 마라톤 하는 거야. 빨리 가야지.
 
 r: 다음 주에도 찾아 와, 귀염둥이. 내가 더 독한 걸로 준비해 줄게.
 
+
 h2: 그래, 고마워. 튀자 튀자 튀자
+
 
 r: 너랑 나랑 같이, 누가 주인인지 똑똑히 보여 주자구!
 
@@ -1718,15 +1812,17 @@ sfx("hit");
 
 h: 다음 주에 파티 또 갈 거야.
 
+
 h: 다음 번에는 널 이기는 걸로 끝나는 게 아니라...
 
 h: ^존나^ *죽여버릴 거야*.
+
 
 ```
 Game.clearText();
 publish("act2", ["act2_end","next"]);
 sfx("concrete_step1");
-````
+```
 
 (...901)
 

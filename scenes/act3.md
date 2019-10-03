@@ -418,7 +418,9 @@ h: 이, 뭐라고? *보다압?*
 
 `bb({ eyes:"angry" });`
 
+
 b: 이래서 내가 *존재* 하는 거야! 인간은 자기 스스로 지키도록 맡길 수가 없으니까!
+
 
 b: 그동안 내 일생을 바치면서까지 모자란 너를 지키려고 노력했는데 지금 너는-
 
@@ -459,6 +461,7 @@ hong({ body:"yell_1", mouth:"yell", eyes:"blank" });
 
 h: 와 진짜, ^씨발^ 고작 그 정도로 다 표현이 안되지!
 
+
 `hong({ body:"yell_2" });`
 
 h: 그래, 이 피칠갑된 썩어빠진 ^씹새끼야!^ 네가 ^존나^ 망쳤고 말고!
@@ -468,6 +471,7 @@ h: 그래, 이 피칠갑된 썩어빠진 ^씹새끼야!^ 네가 ^존나^ 망쳤�
 h: 더 말할 뻔한 얘기는 이제 없나? 
 
 [그렇지만 나한테 복수하는 건 정답이 아니야!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
+
 
 [하지만 이번엔 내가*정말로* 옳아!](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
