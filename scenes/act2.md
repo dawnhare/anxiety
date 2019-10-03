@@ -1517,9 +1517,9 @@ b: 미안해, 인간.
 
 n: *마무리 일격*
 
-[{전투: 빨강머리를 때린다.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{투쟁: 빨강머리를 때린다.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{도주: 이 장소를 벗어난다.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{도: 이 장소를 벗어난다.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2j_fight
 
