@@ -246,7 +246,7 @@ publish("act2",["dee",3]);
 
 s: 그런데도 그래! 설마 원나잇으로는 자기 마음의 구멍을 채울 수 없다고 생각하나?
 
-s: 내숭떨지 말라 그래! 마음을 열고, ^다리도 벌리^고 말이야.!
+s: 내숭떨지 말라 그래! 마음을 열고, 키스도 하고 말이야.!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -479,7 +479,7 @@ sfx("gravel");
 
 (...501)
 
-b: 변태법 제 74.5절 1조 : (1)모든 사람들은 '근육질 어깨'와 '빵빵한 엉덩이'를 쳐다본다. (2)변태는 다음과 같이 정의한다.
+b: 변태법 제 74.5절 1조: 1.모든 사람들은 '근육질 어깨'와 '빵빵한 엉덩이'를 쳐다본다. 2.변태는 다음과 같이 정의한다.
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
@@ -1120,7 +1120,7 @@ b: 이럴 수가, 그 동안 우릴 계속 속여온 거였어!
 
 `bb({body:"scream_a_1"})`
 
-b: 우리가 자립 공업 단지에 의존하게 만들기 위해 *모순*에게 먹이를 준 거구나!
+b: 우리가 자립 산업 단지에 의존하게 만들기 위해 *모순*에게 먹이를 준 거구나!
 
 ```
 music(null);
@@ -1318,7 +1318,7 @@ sfx("rustle2");
 publish("act2",["party_hunter",11]);
 ```
 
-r: 나만의 조합으로 섞은 술이야. 일반적인 것들 보다 사알짝 독하겠지만... 뭐 어때.
+r: 나만의 조합으로 섞은 술이야. 일반적인 것들 보다 살짝 독하겠지만... 뭐 어때.
 
 ```
 publish("act2",["party_hunter",12]);
@@ -1342,7 +1342,7 @@ publish("hp_show");
 
 [이건 잘못된 스트레스 해소법이야.](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[낯선 사람이 준 술 마시는 거 아냐.](#act2g_3) `Game.OVERRIDE_CHOICE_LINE=true`
+[낯선 사람이 준 술은 마시는 거 아냐.](#act2g_3) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2g_1
 
@@ -1515,11 +1515,11 @@ h: 갈비뼈 부서지는 소리가 *들려*. 공기 중에 있는 피 *맛*까�
 
 b: 미안해, 인간.
 
-n: *마무리 일격*
+n: 야생의 엔딩이 튀어나왔다. *무엇을 할까?*
 
-[{투쟁: 빨강머리를 때린다.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{싸운다: 빨강머리를 때린다.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{도피: 이 장소를 벗어난다.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{도망친다: 이 장소를 벗어난다.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2j_fight
 
