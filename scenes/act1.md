@@ -8,7 +8,7 @@ SceneSetup.act1();
 
 n: 그리고 이것은 인간의 불안감입니다
 
-n: _당신이_ 이 사람의 불안감입니다
+n: _당신_ 은 이 사람의 불안감입니다
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -30,9 +30,9 @@ n: 당신의 임무는 인간을 *위험* 으로부터 보호하는 것입니다
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: 사실, 이 게임을 다시 시작하는 것만으로도 이미 *위험* 에 빠졌습니다
+n: 사실은, 이 게임을 다시 시작하는 것만으로도 이미 *위험* 에 빠졌습니다
 
-n: 어서 주의를 주세요!
+n: 어서, 주의를 주세요!
 
 ```
 sfx("squeak");
@@ -42,7 +42,7 @@ hong({body:"0_squeeze"});
 
 b: 인간! 내 말을 들어, 우린 지금 위험해! 플레이어가...
 
-[...다시 우리를 고문시킬 거야!](#act1_replay_torture)
+[...다시 우릴 고문할거야!](#act1_replay_torture)
 
 [...다른 엔딩을 찾지 못 할 거야!](#act1_replay_alternate)
 
@@ -57,32 +57,32 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: 플레이어는 우리를 울게 만들 거야!
+b: 그는 우리를 울게 만들거야!
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: 플레이어는 우리가 공황 발작을 일으켜서 핸드폰을 부수게 할 거야!
+b: 그는 우리를 공황 발작을 일으켜서 핸드폰을 부수게 할 거야!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: 플레이어는 우리가 파티 호스트를 때리지 *못하게* 할 거야!
+b: 그는 우리가 파티 주최자을 때리지 못하게 할거야!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: 플레이어는 우리가 동정어리고 정의로운 파티 호스트를 때리게 할 거야!
+b: 그는 우리가 동정어리고 안티-빌런인 파티 주최자을 때리게 할 거야!
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
-h: 뭐 최소한에 우리를 지붕에서 떨어트리진 않을 테니--
+h: 뭐, 최소한에 우리를 지붕에서 떨어트리진 않을 테니--
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: 우린 지붕에서 떨어질 거야.
+b: 그는 우린 지붕에서 떨어지게 만들거야.
 {{/if}}
 
 `bb({body:"fear"});`
 
-b: 이 모든 새로운 끔찍한 일들이 우리한테 일어나고 나면--
+b: 이 모든 새로운 두려움들은 우리를 씁쓸하게 만들거야. 그러면 우리는--
 
 (#act1_replay_end)
 
@@ -97,7 +97,7 @@ h: 그래, *전반적으로* 이야기는 하나지만, 각 장마다 두 개의
 
 `bb({body:"fear"});`
 
-b: 플레이어는 실망하고 이 브라우저 탭을 닫고, 프로그램을 지우고, 그러면 우리는--
+b: 플레이어는 실망하고 이 창을 닫고, 프로그램을 지우고, 그러면 우리는--
 
 (#act1_replay_end)
 
@@ -116,11 +116,11 @@ b: 이 이야기는 불안감과 건강한 관계를 유지하는 방법을 *선
 
 `bb({eyes:"normal_right"});`
 
-b: 게임을 다시 플레이하고 같은 이야기가 나오면 결국 *선택* 은 중요하지 않다는 걸 알게 되고,
+b: 하지만 다시 시작하면 같은 이야기가 나오고, 결국 *선택* 은 중요하지 않다는 걸 알게 되고,
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: 이 게임이 전하고자 하는 내용과 게임 자체의 모순이 탄로나버리면서,
+b: 이 게임이 전하고자 하는 메세지와 게임 자체의 모순이 탄로나버리면서,
 
 `bb({eyes:"fear"});`
 
@@ -128,7 +128,7 @@ b: 이 이야기 속 세상의 정체도 드러나버리면,
 
 `bb({body:"fear"});`
 
-b: 우리는--
+b: 그러면 우리는--
 
 (#act1_replay_end)
 
@@ -136,7 +136,7 @@ b: 우리는--
 
 `bb({body:"panic"})`
 
-b: 죽을 거야아아아아아아아
+b: 죽을거야아아아아아아아
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -159,13 +159,13 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: 그래 그럼 다시 분위기 잡자.
+h: 알았어. 원래의 캐릭터로 돌아와.
 
 ```
 Game.clearText();
 ```
 
-n4: (당신의 _불안감_ 이 어쩌구 _당신_ 이 가장 불안해하는 것과 비슷하게 저쩌구 뭐 해야 하는지 이미 아시죠?)
+n4: (당신의 _불안감_ 이 어쩌구저쩌구 _당신_ 이 가장 불안해하는 것과 비슷하게 어쩌구저쩌구 뭐 해야 하는지 이미 아시죠?)
 
 ```
 sfx("squeak");
@@ -179,7 +179,7 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: 아, 그래. 내 늑대가 돌아왔네. 아이고 좋아라.
+h: 오 좋아, 내 늑대가 돌아왔네. 환상적인걸.
 
 `hong({eyes:"0_neutral"})`
 
@@ -187,7 +187,7 @@ n: 당신의 임무는 인간을 *위험* 으로부터 보호하는 것입니다
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: 지금 저 샌드위치가 인간을 *위험* 에 빠트리고 있군요
+n: 사실, 저 샌드위치가 인간을 *위험* 에 빠트리고 있군요
 
 n: 어서 주의를 주세요!
 
@@ -197,11 +197,11 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: 인간! 내 말을 들어, 우린 지금 위험에 빠졌어!
+b: 인간! 내 말을 들어, 우린 지금 위험에 빠졌어! 뭐가 위험하냐면...
 
 `bb({body:"squeeze"})`
 
-n4: (_당신_ 의 불안감이 게임을 플레이하게 두세요! _당신_ 이 불안해하는 것과 제일 비슷한 선택지를 고르세요)
+n4: ( _당신_ 의 불안감이 게임을 플레이하게 두세요! _당신_ 이 불안해하는 것과 가장 비슷한 선택지를 고르세요)
 
 (#act1_normal_choice)
 
@@ -209,9 +209,9 @@ n4: (_당신_ 의 불안감이 게임을 플레이하게 두세요! _당신_ 이
 
 [혼자서 점심을 먹고 있잖아! 또!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[밥을 먹는 동안 시간이 낭비되고 있어!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[우리는 먹는동안 뭘 할 수 없다고!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
-[저 흰 식빵은 건강에 나빠!](#act1a_bread) `bb({body:"squeeze_talk"})`
+[저 '하얀 식빵'은 건강에 나빠!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
 # act1a_alone
 
@@ -226,21 +226,21 @@ b: 너 외로움을 느끼면 담배를 하루에 15 개비를 피는 것만큼 
 
 `bb({mouth:"normal", eyes:"normal_right"})`
 
-b: (출처: Holt-Lunstad 2010, PLoS Medicine)
+b: (Holt-Lunstad 2010, PLoS Medicine)
 
 `hong({eyes:"0_annoyed"})`
 
-h: 아, 출처 밝혀준 건 고마운데--
+h: 음, 출처 밝혀준 건 고마운데--
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: 우리가 *지금 당장* 다른 사람과 어울리지 않으면 우리는-
+b: 내 말의 의미는 우리가 *지금 당장* 다른 사람과 어울리지 않으면 우리는-
 
 `bb({body:"panic"})`
 
-b: 죽을 거야아아아아아아아
+b: 죽을거야아아아아아아아
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -253,7 +253,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: 당신은 *사랑받지 않음* 을 사용했습니다
+n: 당신은 *사랑받지 못함에 대한 공포* 를 사용했다.
 
 (#act1b)
 
@@ -268,7 +268,7 @@ b: 빨리 노트북 꺼내서 작업이라도 좀 해!
 
 `hong({eyes:"0_annoyed"})`
 
-h: 아, 키보드에 빵가루 흘리기는 싫은ㄷ--
+h: 음, 키보드에 빵가루 흘리기는 싫은ㄷ--
 
 ```
 bb({mouth:"normal", eyes:"fear"});
@@ -277,14 +277,14 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 
 b: 사회에 공헌하는 게 없으면 우린 사회의 기생충이나 다름 없어!
 
-b: 사회가 사회 병원으로 가서 사회의 기생충들을 죽이는 구충제를 받게 되면 우리는--
+b: 사회단체는 사회운동가들을 죽이기 위해 사회의 의사에게 갈거고, 그러면 우리는--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: 죽을 거야아아아아아아아
+b: 죽을거야아아아아아아아
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -297,7 +297,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: 당신은 *나쁜 사람* 을 사용했습니다
+n: 당신은 *나쁜 사람이 되는 것에 대한 공포* 를 사용했다.
 
 (#act1b)
 
@@ -308,18 +308,18 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: 그 연구 검증된 거 맞--
+h: 그 연구들은 검증된 거 맞--
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: 가공된 밀을 먹으면 혈당이 너무 높아져서 팔다리를 잘라야 할 거고 그렇게 되면 우리는-
+b: 가공된 밀을 먹으면 혈당이 너무 높아져서 팔다리를 잘라야 할 거고, 그러면 우리는-
 
 `bb({body:"panic"})`
 
-b: 죽을 거야아아아아아아아
+b: 죽을거야아아아아아아아
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -332,17 +332,17 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: 당신은 *해를 입음* 을 사용했습니다
+n: 당신은 *상처받는 것에 대한 공포* 를 사용했다.
 
 (#act1b)
 
 # act1b
 
-n: 효과는 굉장했습니다.
+n: "효과가 굉장했다!"
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: 봤지? 난 너를 지키는 충직한 늑대라구!
+b: 봤지, 인간? 난 너를 지키는 충직한 늑대라구!
 
 `bb({body:"pride_talk"});`
 
@@ -350,15 +350,15 @@ b: 네 감을 믿어! 네 감정은 항상 옳아!
 
 `bb({body:"pride"});`
 
-n: 인간의 에너지를 0 까지 내리십시오
+n: 인간의 HP를 0으로 만드세요.
 
-n: 인간의 물리적 + 사회적 + 정신적 건강을 보호하기 위해 당신은:
+n: 인간의 물리적인, 사회적인, 정신적인 건강을 보호하기 위해 당신은 다음 기술을 사용할 수 있습니다.
 
-n: *해를 입는 것*에 대한 *공포*, #harm#
+n: *상처받는 것에 대한 공포*, #harm#
 
-n: *사랑받지 않음*에 대한 *공포*, #alone#
+n: *사랑받지 못함에 대한 공포*, #alone#
 
-n: *나쁜 사람이 되는 것*에 대한 *공포* #bad#
+n: *나쁜 사람이 되는 것에 대한 *공포* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
@@ -401,15 +401,15 @@ n: 행운을 빕니다
 
 `music('battle', {volume:0.5})`
 
-n: 라운드 1: *파이트!*
+n: 라운드 1: *FIGHT!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: 흠. 페북에 이번 주 주말에 파티가 있다고 뜨네.
+h: 음. 페이스북에 이번 주 주말에 파티가 있다고 하네.
 
 `bb({eyes:"uncertain"});`
 
-b: 그 이상한 녀석은 *매 주* 마다 파티 열지 않아?
+b: 그 이상한 녀석은 주말*마다* 파티 열지 않아?
 
 `bb({eyes:"uncertain_right"});`
 
@@ -417,7 +417,7 @@ b: 대체 어떤 공허함을 채우려고 하는 거지? 분명 심각하게 �
 
 `hong({eyes:"surprise"});`
 
-h: 나 초대까지 받았는데?
+h: 게다가, 나 초대까지 받았는데?
 
 `bb({eyes:"fear", mouth:"normal"});`
 
@@ -427,12 +427,12 @@ b: 그렇다면!
 
 [안 간다고 해, 거긴 독극물 투성이라구!](#act1c_drugs)
 
-[무시해, 우리가 가면 분위기 망칠 거야.](#act1c_sad)
+[무시해, 우리가 가면 파티 분위기 망칠거야.](#act1c_sad)
 
 # act1c_loner
 
 {{if _.fifteencigs}}
-b: 담배 15개비라니까, 인간! 15개비!
+b: 하루에 담배 15개비라니까, 인간! 15개비!
 {{/if}}
 
 {{if !_.fifteencigs}}
@@ -440,7 +440,7 @@ b: 담배 15개비라니까, 인간! 15개비!
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: 그러면 아무도 우리 장례식에 오지 않을 거고, 우리 유골은 바다에 마구 흩뿌려져 고래밥이 돼서
+b: 그러면 아무도 우리 장례식에 오지 않을 거고, 우리 유골은 바다에 마구 흩뿌려져 고래밥이 돼서,
 {{/if}}
 
 {{if !_.fifteencigs}}
@@ -465,16 +465,16 @@ b: 그러니까, 우린 파티에 가야 해!
 {{/if}}
 
 {{if _.parasite}}
-b: 단, 사회의 기생충이 되면 안 되니까 거기서 일할 수 있도록 노트북 꼭 챙겨 가.
+b: 단, 거기서 일할 수 있도록 노트북 꼭 챙겨 가. 사회의 기생충이 되면 안 되니까.
 {{/if}}
 
 {{if _.whitebread}}
-b: 참, 흰 식빵만 없다면 말야.
+b: 단, '하얀 식빵'을 대접하지 않는다면 말이야.
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: 쳇. 조용히 한다면야, 좋아.
+h: 쳇. 너만 입닫는다면야, 좋아.
 
 h: 간다고 할게.
 
@@ -491,7 +491,7 @@ b: 고래 똥이라니까, 인간! 고래 똥!
 `bb({mouth:"small", eyes:"fear"});`
 
 {{if _.whitebread}}
-b: 아님 더 최악인...흰 식빵이 있겠지
+b: 아님 더 최악인... '하얀 식빵'이 있겠지.
 {{/if}}
 
 {{if _.whitebread}}
@@ -499,7 +499,7 @@ b: 아님 더 최악인...흰 식빵이 있겠지
 {{/if}}
 
 {{if _.whitebread}}
-b: 메스암페타인이랑 흰 식빵에 너무 중독되서 화장터 화구에도 들어가지 못할 정도로 살찐 시체가 될 거야!
+b: 너무 많은 필로폰이랑 '하얀 식빵'에 중독되서 화장터 화구에도 들어가지 못할 정도로 살찐 시체가 될 거야!
 {{/if}}
 
 {{if !_.whitebread}}
@@ -514,12 +514,12 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.parasite}}
-b: 끔찍한 기생충이 되기 싫으면 파티 대신 일을 해야지!
+b: 게다가 파티를 즐길 수 없어. 우리는 일을 하지 않으면 우리는 끔찍한 사회의 기생충이 될거야!
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: 쳇. 조용히 한다면야, 좋아.
+h: 쳇. 너만 입닫는다면야, 좋아.
 
 h: 안 간다고 할게
 
@@ -534,15 +534,15 @@ h: 안 간다고 할게
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.fifteencigs}}
-b: 우리 파티 가면 늘 외로움은 하루에 담배 15개비 피는 것만큼 치명적이라고 걱정만 하잖아.
+b: 우리가 하는거라곤 하루에 담배 15개피를 피는것마냥 외로움때문에 구석에 찌그러져서 우는 것 뿐이잖아.
 {{/if}}
 
 {{if _.parasite}}
-b: 우리 파티 가면 늘 어떻게 해야 생산적인 사람이 될 지 걱정만 하잖아.
+b: 우리가 파티에 가면 늘 하는거라곤 어떻게 해야 생산적인 사람이 될 지 걱정하는 거잖아.
 {{/if}}
 
 {{if _.whitebread}}
-b: 우리 파티 가면 늘 정크 푸드가 우릴 죽일 거라고 걱정만 하잖아.
+b: 우리가 가면 늘 하는거라곤 패스트푸드가 우릴 죽일 거라고 걱정하는 거잖아.
 {{/if}}
 
 ```
@@ -550,7 +550,7 @@ bb({mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"lookaway"});
 ```
 
-h: 그러게, 왜 그럴까나
+h: 그러게, 왜 그럴까나.
 
 `hong({eyes:"neutral"});`
 
@@ -562,7 +562,7 @@ b: 파티 가도 다들 기분 나빠하고, 그렇다고 거절해도 다들 �
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: 뭘 하든 기분 나빠할 거니까 우리도 기분 나빠야 해!
+b: 뭘 하든 기분 나빠할 거니까, 그래서 우리도 기분이 나빠야만 해!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -573,7 +573,7 @@ attack("18p", "bad");
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: 어휴. 조용히 한다면야, 좋아.
+h: 어휴. 너만 입닫는다면야, 좋아.
 
 h: 그냥 무시할게.
 
@@ -588,11 +588,11 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"annoyed"});
 ```
 
-h: 쨌든, 페이스북은 이쯤 할래. 좀 차분하고, 내 불안감을 줄여주는 게 필요해
+h: 어쨌든, 페이스북은 이쯤 할래. 좀 차분하고, 내 불안감을 줄여줄만한게 필요해.
 
 `hong({eyes:"neutral"});`
 
-h: 트위터에 뭐 올라왔나?
+h: 트위터엔 뭐 올라왔으려나?
 
 `bb({eyes:"look"});`
 
@@ -600,7 +600,7 @@ h: 트위터에 뭐 올라왔나?
 
 [안 돼, 저 트윗 혹시 *우리*를 저격한 글 아니야?](#act1d_subtweet)
 
-[봐봐, 고양이가 우유 마시는 영상이네](#act1d_milk)
+[오, 고양이가 우유 마시는 움짤이네](#act1d_milk)
 
 # act1d_news
 
@@ -609,14 +609,14 @@ bb({eyes:"pained1"});
 music(null, {fade:2});
 ```
 
-b: 세상이 멸망하는 기분이 들어, 그치?
+b: 세상에, 세상이 멸망하는 기분이 들어, 안그래?
 
 ```
 bb({eyes:"pained2"});
 hong({mouth:"sad", eyes:"sad"});
 ```
 
-b: 마치 전부 끝장나고 세상이 멸망하고 모든 것들이 죽어버리고 아무 것도 못 하는 채로 망하는 것처럼 말이야
+b: 마치 전부 끝장나고, 세상이 멸망하고 모든 것들이 죽어버리고 아무 것도 못 하는 채로 망하는 것처럼 말이야.
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -649,7 +649,7 @@ h: 그래, 리트윗 할 테니까 제발 조용히 해!
 
 `hong({mouth:"neutral", eyes:"annoyed"});`
 
-h: 에라이, 스냅챗이나 봐야지
+h: 에라이, 스냅챗이나 봐야지.
 
 (#act1e)
 
@@ -657,7 +657,7 @@ h: 에라이, 스냅챗이나 봐야지
 
 `bb({eyes:"fear"});`
 
-b: 서브트윗이네! 교활하고, 엉큼한 서브트윗이야!
+b: 저격트윗이네! 누구한테 하는진 안써있긴한데.. 교활하고, 엉큼한 저격글이야!
 
 `hong({eyes:"annoyed"});`
 
@@ -681,7 +681,7 @@ h: 아니--
 
 b: 그치만 *만약 그러면*
 
-h: ㅈ--
+h: 닥--
 
 `bb({eyes:"narrow_eyebrow"});`
 
@@ -710,7 +710,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: 그, 그럼 스냅챗이나 보자.
+h: 어.. 그래, 스냅챗이나 보자.
 
 (#act1e)
 
@@ -718,7 +718,7 @@ h: 그, 그럼 스냅챗이나 보자.
 
 `hong({mouth:"smile", eyes:"neutral"});`
 
-h: 헤헤, 그러네, 귀엽다, 리트윗을 해--
+h: 헤 완전 귀엽다, 이거 리트윗하자, 내 생각엔--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -726,7 +726,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: 고양이는 우유를 소화 못 해 이런 학대 영상을 보고 즐기다니 우리는 끔찍한 사람이야!
+b: 고양이는 우유를 소화 못 해. 이런 동물학대 영상을 보고 즐기다니, 우리는 끔찍한 사람이야.
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -742,7 +742,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: 그-럼, 스냅챗이나 보자.
+h: 어.. 그래, 스냅챗이나 보자.
 
 (#act1e)
 
@@ -750,7 +750,7 @@ h: 그-럼, 스냅챗이나 보자.
 
 `hong({mouth:"neutral", eyes:"neutral"});`
 
-h: 흠, 어젯밤에 올라온 사진이네. *저게*  매 주마다 열리는 파티였구나.
+h: 흠, 어젯밤에 올라온 사진이네. *저게*  매 주마다 여는 파티였구나.
 
 {{if _.partyinvite=="yes"}} (#act1e_said_yes) {{/if}}
 
@@ -773,18 +773,18 @@ bb({mouth:"normal", eyes:"normal"});
 
 [대답을 바꾸려고? 찐따처럼?!](#act1e_yes_dontchange)
 
-[대답을 바꿔야지! 너무 많아!](#act1e_yes_changetono)
+[대답을 바꿔! 너무 붐벼!](#act1e_yes_changetono)
 
 {{if _.subtweet}}
-[역시 저 서브트윗은 우리 저격이었어.](#act1e_ignore_subtweet)
+[음, 그 저격글 확실히 우리 얘기 맞네.](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
-[잠깐, 팩트체크 안 하고 리트윗했는데.](#act1e_ignore_factcheck)
+[잠깐, 팩트체크도 안 하고 리트윗했는데.](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[근데 너, 자세 정말 안 좋은 거 알아?](#act1e_ignore_posture)
+[근데 너, 지금 자세가 정말 안좋은건 알기나해?](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_yes_dontchange
@@ -794,7 +794,7 @@ bb({eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: 우리가 오길 기대하고 있을 텐데 그 믿음을 배신한다고? 혼자 죽고 싶어서 그래?!
+b: 우리가 오길 기대하고 있을텐데, 그 믿음을 배신한다고? 혼자 죽고 싶어서 그래?!
 
 {{if _.fifteencigs}}
 b: 담배. 15개비.
@@ -816,7 +816,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: 알았어, 알았어! 그대로 간다고 할게!
+h: 조용이해, 제발! 그대로 간다고 할게!
 
 (#act1f)
 
@@ -835,7 +835,7 @@ hong({eyes:"sad", mouth:"sad"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: 2003년 로드아릴랜드 나이트클럽에서 불이 났었는데, 겁에 질린 사람들이 출구에 너무 몰려서 100명의 사람들이 불에 타 죽었어
+b: 2003년 로드아릴랜드 클럽에서 불이 났었는데, 겁에 질린 사람들이 출구에 너무 몰려서 100명의 사람들이 불에 타 죽었어-
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -843,7 +843,7 @@ hong({mouth:"shock"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: 그런 게 우리한테 일어났으면 좋겠니?
+b: 그런 게 우리한테 일어났으면 좋겠어?-
 
 ```
 bb({body:"scream"});
@@ -865,7 +865,7 @@ hong({eyes:"anger", mouth:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: 알았어, 알았어! 안 간다고 바꾸면 되잖아! 좀!
+h: 알았어, 알았어! 안 간다고 하면되잖아! 제발!
 
 (#act1f)
 
@@ -873,7 +873,7 @@ h: 알았어, 알았어! 안 간다고 바꾸면 되잖아! 좀!
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: 흠...정말 재밌어 보이는걸.
+h: 흠... 정말 재밌어 보이는걸.
 
 h: 역시 안 간다고 하지 말 걸 그랬나?
 
@@ -884,7 +884,7 @@ h: 역시 안 간다고 하지 말 걸 그랬나?
 [대답을 바꿔! 혼자 죽지 마!](#act1e_no_changetoyes)
 
 {{if _.subtweet}}
-[음, 확실히 우리 얘기 맞네](#act1e_ignore_subtweet)
+[음, 그 저격글 확실히 우리 얘기 맞네.](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
@@ -892,7 +892,7 @@ h: 역시 안 간다고 하지 말 걸 그랬나?
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[근데 너, 자세 정말 안 좋은 거 알아?](#act1e_ignore_posture)
+[근데 너, 지금 자세가 정말 안좋은건 알기나해?](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_no_dontchange
@@ -901,7 +901,7 @@ h: 역시 안 간다고 하지 말 걸 그랬나?
 
 b: 모두들 기대하고 있을 거야!
 
-b: 우리같이 {{if _.whitebread}}빵이나 씹어먹는{{/if}} 역겹고 혐오스러운 사람들이 파티에 안 가니까 정말 재밌는 파티를 즐길 수 있을 --
+b: ...우리같이 {{if _.whitebread}}'하얀 식빵'이나 씹어먹는{{/if}} 역겹고 혐오스러운 사람들이 파티에 없을테니 정말 재밌는 파티를 즐길 수 있을--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -916,7 +916,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: 알았어, 알았어! 안 간다고 하면 되잖아!
+h: 조용이해, 제발! 안 간다고 하면 되잖아!
 
 (#act1f)
 
@@ -946,7 +946,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: 알았어, 알았어! 간다고 하면 되잖아! 좀!
+h: 조용이해, 제발! 간다고 하면 되잖아! 좀!
 
 (#act1f)
 
@@ -957,14 +957,14 @@ bb({eyes:"fear", mouth:"small"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: 우리가 쓴 심각한 트윗들이 전부 되돌아올 거야!
+b: 우리가 리트윗한 문제있는 모든 트윗들이 전부 되돌아올 거야!
 
 ```
 bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.7;
 ```
 
-b: 우린 밖으로 불려나와서는 말 안장에 밧줄로 꽁꽁 묶인 채 초고속 정보통신망으로 질질 끌려가고 말겠지!
+b: 우린 밖으로 불려나와서는 말 안장에 밧줄로 꽁꽁 묶인 채, 초고속 정보통신망으로 질질 끌려가고 말겠지!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -990,7 +990,7 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: 우리가 잘못 된 정보를 퍼트렸어! 자유 언론에 대한 신뢰를 박살내다니!
+b: 우리가 잘못 된 정보를 퍼트렸어! 자유로운 언론에 대한 신뢰를 박살내다니!
 
 ```
 bb({body:"scream"});
@@ -1024,13 +1024,13 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: 척추 구부려서 프레첼 만들 일 있니?! 폰 볼 때 허리 좀 펴!
+b: 척추 구부려서 폴더폰처럼 접고다닐거야?! 핸드폰 볼 때 허리 좀 펴!
 
 ```
 bb({body:"meta"});
 ```
 
-b: 너도 마찬가지야.
+b: 화면보고 있는 너도 마찬가지야.
 
 ```
 bb({body:"normal", mouth:"normal"});
@@ -1054,13 +1054,13 @@ h: 대체 왜 그러는 거야?!
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: 흠...정말 재밌어 보이는걸.
+h: 흠... 정말 재밌어 보이는걸.
 
 h: 역시 무시하지 말 걸 그랬나?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[계속 무시해, 우린 여전히 분위기 깨는 사람들이야](#act1e_ignore_continue)
+[계속 무시해, 우린 여전히 분위기 깨는 사람들이야.](#act1e_ignore_continue)
 
 [사실, 간다고 해.](#act1e_ignore_changetoyes)
 
@@ -1070,11 +1070,11 @@ h: 역시 무시하지 말 걸 그랬나?
 
 `hong({eyes:"annoyed"});`
 
-h: 그래도 계속 무시하는 건 좀 무례하지 않나?
+h: 그래도 계속 무시하는 건 좀 무례하지 않나, 안그래?
 
 `bb({eyes:"normal_right"});`
 
-b: 다른 사람들도 *우릴* 무시하는데 뭐 
+b: 다른 사람들도 *우릴* 무시하는데, 뭐. 
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1093,9 +1093,9 @@ b: 그냥 비긴 셈 치지 뭐.
 
 `hong({eyes:"surprise", mouth:"smile"});`
 
-h: 나...가서 놀게 허락해 주는 거야??
+h: 나... 가서 놀게 허락해 주는 거야??
 
-b: 뭐, 사실은, 외로우면 *죽을 수도* 있으니까
+b: 뭐, 사실은, 외로우면 *죽을 수도* 있으니까.
 
 `hong({eyes:"neutral", mouth:"neutral"});`
 
@@ -1105,7 +1105,7 @@ b: 뭐, 사실은, 외로우면 *죽을 수도* 있으니까
 
 `bb({eyes:"narrow"});`
 
-b: 사람들이 너무 붐벼. 저런 군중은 위험하다고.
+b: 사람들이 너무 붐빌거야. 분명 위험할거야.
 
 (#act1e_yes_changetono)
 
@@ -1116,7 +1116,7 @@ hong({mouth:"neutral", eyes:"neutral"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: 아무튼, 틴더 알림 올라왔어
+h: 어? '틴더' 알림왔네.
 
 `bb({eyes:"uncertain"})`
 
@@ -1135,7 +1135,7 @@ hong({eyes:"surprise", mouth:"smile"});
 bb({eyes:"normal"});
 ```
 
-h: 오, 나 매칭됐어! 귀엽게 생겼네!
+h: 오, 나 매칭됐어! 얘 귀엽게 생겼네!
 
 ```
 bb({eyes:"narrow_eyebrow"});
@@ -1149,13 +1149,13 @@ bb({body:"panic"});
 Game.OVERRIDE_TEXT_SPEED = 2.0;
 ```
 
-b: 위험! 위험! 위험! 위험! 위험! 위험! 위험! 위험! 위험! 위험!
+b: 삐! 삐! 삐! 삐! 삐! 삐!
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"})`
 
-[이러다 다른 사람들에게 *이용*당할 거야](#act1f_used_by_others)
+[우린 다른 사람들에게 *이용*당할 거야](#act1f_used_by_others)
 
-[이건 다른 사람들을 *이용*하는 거야](#act1f_using_others)
+[우린 단지 다른 사람들을 *이용*하는 거야](#act1f_using_others)
 
 [저 사람은 연쇄 살인마야](#act1f_killer)
 
@@ -1163,13 +1163,13 @@ b: 위험! 위험! 위험! 위험! 위험! 위험! 위험! 위험! 위험! 위�
 
 `bb({body:"point_crotch", eyes:"normal", mouth:"normal"})`
 
-b: 모르는 사람과의 원나잇은 아랫도리는 채울 수 있어도
+b: 모르는 사람과의 원나잇은 ^아랫도리^는 채울 수 있어도
 
 b: 마음 속에 난 구멍은...
 
 `bb({body:"point_heart", eyes:"pretty", mouth:"small"})`
 
-b: 절대 못 채워
+b: *못채워*.
 
 (...1000)
 
@@ -1195,7 +1195,7 @@ attack("18p", "alone");
 
 `bb({eyes:"narrow", mouth:"small"})`
 
-b: 설마 남의 거시기를 포켓몬처럼 수집하는 거 아니지?
+b: 설마 남의 ^성기^를 포켓몬처럼 수집하는 거 아니지?
 
 ```
 bb({body:"sing", eyes:"pretty", mouth:"shut"});
@@ -1227,7 +1227,7 @@ bb({eyes:"narrow", mouth:"small"});
 Game.FORCE_TEXT_DURATION = 2100;
 ```
 
-b: ♫ ^걸레^가 될 거야-
+b: ♫ 최고의 ^걸레^가 될 거야-
 
 (...1500)
 
@@ -1236,7 +1236,7 @@ bb({eyes:"pretty"});
 Game.FORCE_TEXT_DURATION = 2300;
 ```
 
-b: ♫ 꿀벅지와 ^후장^, 풍만한 슴가
+b: ♫ 허벅지와 ^후장^, 풍만한 가슴-
 
 (...500)
 
@@ -1245,7 +1245,7 @@ bb({eyes:"fear", mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2000;
 ```
 
-b: ♫ 그리고 축축한 ^부랄좆^을 찾아서!
+b: ♫ 그리고 축축한 ^좆^과 ^구슬^!-
 
 (...1000)
 
@@ -1264,7 +1264,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: 중요한 건 우린 영악한 자식이란 거야
+b: 중요한 건 우린 영악한 자식이란 거야.
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1282,7 +1282,7 @@ attack("18p", "bad");
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.whitebread}}
-b: 널 우물에 가두고 네 살가죽으로 옷을 만들 어 입을 수 있을 정도로 흰 식빵만 먹여서 살찌울 거야!
+b: 널 우물에 가두고 '하얀 식빵'만 먹여서 살찌운 다음, 네 피부를 양복처럼 입을지도 몰라!
 {{/if}}
 
 {{if _.parasite}}
@@ -1321,40 +1321,40 @@ h: ...
 
 (...500)
 
-h: 난 더 이상 못 하겠어
+h: 난 이 게임이 정말 지겨워.
 
 (...700)
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 h:
-{{if _.fifteencigs}}"외로움은 우릴 해친다니"... {{/if}}
-{{if _.parasite}}"우린 사회의 기생충"... {{/if}}
-{{if _.whitebread}}"흰 빵은 우릴 죽일 거라니"... {{/if}}
+{{if _.fifteencigs}}"외로움은 우릴 죽일거야"... {{/if}}
+{{if _.parasite}}"우린 사회의 기생충이야"... {{/if}}
+{{if _.whitebread}}"'하얀 식빵'은 우릴 죽일거야"... {{/if}}
 {{if _.subtweet}}"우리 뒷담화를 하고 있어"... {{/if}}
 {{if _.badnews}}"세상이 멸망해"... {{/if}}
 {{if _.hookuphole}}"고독사로 죽을 거야"... {{/if}}
 {{if _.serialkiller}}"저 사람들은 연쇄살인마"... {{/if}}
 {{if _.catmilk}}"고양이는 우유를 소화 못 해"... {{/if}}
-{{if _.pokemon}}"게다가 ^개좆^같은 노래 패러디까지"... {{/if}}
+{{if _.pokemon}}"게다가 ^씨발^같은 노래 패러디까지"... {{/if}}
 
 h: 난 그냥 내 삶을 살고 싶어.
 
-h: 이 모든 고통에서 자유로워지고...싶다구.
+h: 이 모든 고통에서... 자유로워지고 싶다구.
 
 `bb({eyes:"look_sad"});`
 
-b: 저기...인간...
+b: 저기... 인간...
 
 `Game.OVERRIDE_TEXT_SPEED = 0.5;`
 
-b: 괜찮을 거야
+b: 괜찮을 거야.
 
 (...600)
 
 `bb({body:"point_heart", eyes:"look_sad_smile", mouth:"smile"});`
 
-b: 네 충직한 늑대로서, 내가 언제나 위험 요소를 경계하고 안전하게 보호해 주겠어.
+b: 네 충직한 늑대로서, 내가 언제나 위험 요소를 경계하고 안전하게 보호할게.
 
 `bb({body:"normal", eyes:"look_sad", mouth:"smile"});`
 
@@ -1367,29 +1367,29 @@ bb({body:"normal", eyes:"normal", mouth:"normal"});
 hong({body:"phone1", eyes:"neutral", mouth:"neutral"});
 ```
 
-h: 마지막이네. 인스타그램. 넌 뭐 올라왔니?
+h: 마지막 앱이네. 인스타그램. 넌 뭐 올라왔니?
 
 `hong({eyes:"sad"});`
 
-h: 이건...또 파티 사진들이잖아.
+h: 이건... 또 파티 사진들이잖아.
 
 `hong({mouth:"sad"});`
 
-h: 걱정거리 없이, 불안감 없이, 모두들 행복해 보여. 
+h: 모두 행복해보여. 걱정거리 없이, 불안감 없이.
 
 `hong({mouth:"anger"});`
 
-h: 난 왜 저 사람들처럼 못 하지? 왜 "평범하게" 살 수 없는 걸까?
+h: 난 왜 저 사람들처럼 못 하지? 왜 *평범하게* 살 수 없는 걸까?
 
 `bb({eyes:"normal_right"});`
 
-b: 파티 얘기 나와서 그런데, 이번 주말 파티 말야. 내 최종 결정은:
+b: 파티 얘기 나와서 그런데, 이번 주말 파티 말야. 내 "최종" 결정은
 
 `bb({eyes:"normal"});`
 
-[가자](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
+[우린 가야해.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[가지 말자](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
+[우린 가지말아야해.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1g_go
 
@@ -1430,14 +1430,14 @@ b: 뭐?
 
 `hong({body:"phone1", eyes:"anger", mouth:"anger"});`
 
-h: 난 파티 간다고 얘기하겠어
+h: 난 파티 *간다고* 말할거야.
 
 {{if _.act1g=="go"}}
 h: 네가 가라고 해서가 아니라, *내가* 가고 싶어서야.
 {{/if}}
 
 {{if _.act1g=="dont"}}
-h: 그렇게나 가지 말라고 얘기하니까.
+h: 정확한 이유로는 "네가 가지 말라고" 하니까.
 {{/if}}
 
 ```
@@ -1445,14 +1445,14 @@ hong({body:"putaway"});
 sfx("rustle");
 ```
 
-h: 넌 날 통제할 수 없어.
+h: 넌 날 통제할 수 "없어".
 
 ```
 sfx("rustle2");
 hong({body:"0_sammich", eyes:"0_annoyed", mouth:"0_neutral"});
 ```
 
-h: 그럼 실례, 이 ^염병할^ 장소에서 맛있는 샌드위치 먹을 거야.
+h: 그럼 실례. 이 ^염병할^ 장소에서 맛있는 샌드위치 먹을 거야.
 
 `hong({body:"2_sammich_eat"});`
 
@@ -1490,11 +1490,11 @@ b: ..................
 
 `bb({mouth:"normal"});`
 
-[으아아아 우린 다 죽을 거야](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
+[아우~~ 우린 다 죽을 거야](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[으아아아 모두들 우릴 미워해](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
+[아우~~ 모두들 우릴 미워해](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[으아아아 우린 못된 사람들이야](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
+[아우~~ 우린 못된 사람들이야](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
 
 # act1h_death
 
@@ -1503,7 +1503,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: 으아아아 우린 다 죽을 거야 으아아아아아아
+b: 아우~~ 우린 다 죽을 거야 아우~~~~~~
 
 ```
 hong({body:"3_defeated1"});
@@ -1521,7 +1521,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: 으아아아 모두들 우릴 미워해 으아아아아아아
+b: 아우~~ 모두들 우릴 미워해 아우~~~~~~
 
 ```
 hong({body:"3_defeated1"});
@@ -1539,7 +1539,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: 으아아아 우린 못된 사람들이야 으아아아아아
+b: 아우~~ 우린 못된 사람들이야 아우~~~~~~
 
 ```
 hong({body:"3_defeated1"});
@@ -1561,25 +1561,25 @@ n: 축하합니다
 
 (...500)
 
-n: 당신은 성공적으로 인간을 물리적 + 사회적 + 정신적 건강을 지켜냈습니다
+n: 당신은 성공적으로 인간을 물리적인, 사회적인, 정신적인 건강을 지켜냈습니다
 
-n: 햐, 저 고마워하는 거 보세요!
+n: 자, 저 고마워하는 거 보세요!
 
 (...500)
 
-n: 이제 에너지가 0이 됐으니, 행동을 직접 선택할 수 있습니다.
+n: 이제 HP가 0이 됐으니, 행동을 직접 선택할 수 있습니다.
 
 `bb({mouth:"smile", eyes:"normal"});`
 
-n: 엔딩을 선택해 주세요
+n: 야생의 "엔딩"이 튀어나왔다.
 
 `bb({mouth:"small_lock", eyes:"fear"});`
 
-n: *마무리 일격*
+n: *무엇을 할까?*
 
-[{투쟁: 짜증나는 폰을 혼쭐내준다!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
+[{싸운다: 짜증나는 폰을 혼쭐내준다!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{도피: 몸을 공처럼 말고 흐느낀다!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
+[{도망간다: 몸을 공처럼 말고 흐느낀다!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1i_phone
 
@@ -1589,7 +1589,7 @@ b: 네 폰 때문에 공황발작을 일으키고 있었어!
 
 `bb({eyes:"anger"})`
 
-b: 주커버그와 그 일당들이 벤처 투자자들의 돈 때문에 네 정신 건강을 훔친 거야!
+b: 주커버그와 그 일당들이, 벤처 투자자들의 돈 때문에 네 정신 건강을 훔친 거야!
 
 ```
 bb({body:"fear", eyes:"fear"});
@@ -1597,7 +1597,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: 폰에게 벌을 줘! 파괴해! 죽여!
+b: 폰을 혼내! 파괴해! 죽여버려!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1606,7 +1606,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "fight";
 ```
 
-b: 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽--
+b: 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽여 죽--
 
 (#act1j)
 

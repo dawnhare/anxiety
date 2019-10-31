@@ -16,9 +16,9 @@ Game.FORCE_CANT_SKIP = true;
 publish("show_stats");
 ```
 
-n2: 이번에 느낀 공포:
+n2: 이번 이야기에서의 공포들:
 
-i: #harm# *피해를 입음:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
+i: #harm# *상처받음:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
 
 i: #alone# *사랑받지 못함:* {{_.INTERMISSION_STAGE==1 ? _.attack_alone_ch1 : _.attack_alone_ch2}}
 

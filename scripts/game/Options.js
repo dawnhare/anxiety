@@ -26,7 +26,7 @@ Loader.addSounds([
 			HOW_MANY_PROMPTS = 1;
 		}
 		Game.CLICK_TO_ADVANCE = !Game.CLICK_TO_ADVANCE;
-		text_automatic_toggle.innerHTML = Game.CLICK_TO_ADVANCE ? "클릭" : "자동";
+		text_automatic_toggle.innerHTML = Game.CLICK_TO_ADVANCE ? "클릭 시" : "자동으로";
 
 		// Sound
 		sfx( Game.CLICK_TO_ADVANCE ? "ui_button2" : "ui_button1");

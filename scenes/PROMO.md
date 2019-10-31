@@ -14,13 +14,13 @@
 
 `clearText()`
 
-n3: 자, 시작하기 전에, 당신은 어떻게 읽는 걸 좋아하나요?
+n3: 시작하기 전에, 어떻게 읽는 걸 좋아하시나요?
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: 그럼 이야기를 시작해보도록 하죠...
+n3: 그럼, 이야기를 시작하죠...
 
 ```
 publish("hide_tabs");
@@ -53,7 +53,7 @@ music('battle', {volume:0.5});
 
 n: 그리고 이것은 인간의 불안감입니다
 
-n: _당신_ 이 이 사람의 불안감입니다
+n: _당신_ 은 이 사람의 불안감입니다
 
 (#act1_normal)
 
@@ -88,15 +88,15 @@ h: 그러게. 왜 내가 가만히 앉아서 내 생각에 대해 고찰해보�
 
 `hong({eyes:"neutral"});`
 
-n: 빨리, *위험* 을 알리세요!
+n: 어서, 주의를 주세요!
 
 ```
 bb({eyes:"look"});
 ```
 
-[안 돼, 저 끔찍한 뉴스를 좀 봐!](#act1d_news)
+[세상에, 저 끔찍한 뉴스를 좀 봐!](#act1d_news)
 
-[안 돼, 저 트윗 혹시 *우리* 를 저격한 글 아니야?](#act1d_subtweet)
+[어? 저 트윗 혹시 *우리* 를 저격한 글 아니야?](#act1d_subtweet)
 
 [봐봐, 고양이가 우유를 마시는 영상이네](#act1d_milk)
 
@@ -120,6 +120,3 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 attack("20p", "bad");
 publish("hp_show");
 ```
-
-
-
