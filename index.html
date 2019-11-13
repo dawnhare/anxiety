@@ -1,26 +1,28 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
-	
+	<meta charset="utf-8">
 	<!-- THE BIG META -->
-	<title>Adventures With Anxiety!</title>  <!-- TRANSLATE -->
-	<meta name="description" content="A story-game about a human and their anxiety. You play as the anxiety." />  <!-- TRANSLATE: content -->
+
+	<title>불안감과 함께하는 모험!</title>
+	<meta name="description" content="인간과 그 사람의 불안감에 대한 스토리 게임입니다. 당신의 불안감을 시작해보세요." />
+
 	<link rel="icon" type="image/png" href="favicon.png">
 
 	<!-- Twitter Card data -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@ncasenmare">
-	<meta name="twitter:title" content="Adventures With Anxiety!">  <!-- TRANSLATE: content -->
-	<meta name="twitter:description" content="A story-game about a human and their anxiety. You play as the anxiety.">  <!-- TRANSLATE: content -->
+	<meta name="twitter:title" content="불안감과 함께하는 모험!">  <!-- TRANSLATE: content -->
+	<meta name="twitter:description" content="인간과 그 사람의 불안감에 대한 스토리 게임입니다. 당신의 불안감을 시작해보세요.">  <!-- TRANSLATE: content -->
 	<meta name="twitter:image" content="https://ncase.me/anxiety/sharing/thumb.png">
 
 	<!-- Open Graph data -->
-	<meta property="og:title" content="Adventures With Anxiety!">  <!-- TRANSLATE: content -->
+	<meta property="og:title" content="불안감과 함께하는 모험!">  <!-- TRANSLATE: content -->
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://ncase.me/anxiety/">
 	<meta property="og:image" content="https://ncase.me/anxiety/sharing/thumb.png">
-	<meta property="og:description" content="A story-game about a human and their anxiety. You play as the anxiety.">  <!-- TRANSLATE: content -->
-	<meta property="og:site_name" content="Adventures With Anxiety!">  <!-- TRANSLATE: content -->
+	<meta property="og:description" content="인간과 그 사람의 불안감에 대한 스토리 게임입니다. 당신의 불안감을 시작해보세요.">  <!-- TRANSLATE: content -->
+	<meta property="og:site_name" content="불안감과 함께하는 모험!">  <!-- TRANSLATE: content -->
 	
 	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="styles/game.css">
@@ -46,10 +48,12 @@
 		<span id="cta_text1">
 			<div class="mini-icon" pic="click" style="top:3px;"></div>
 			<span id="instructions_if_not_mobile">
-				click or spacebar <!-- TRANSLATE THIS -->
+
+				마우스 클릭 or 스페이스바
 			</span>
 			<span id="instructions_if_mobile" style="display:none">
-				tap anywhere <!-- TRANSLATE THIS -->
+				아무 곳이나 누르세요
+
 			</span>
 		</span>
 		<span id="cta_text2">
@@ -75,9 +79,11 @@
 	<!-- Paused Screen -->
 	<div id="paused">
 		<div>
-			<!-- TRANSLATE THIS -->
-			paused
-			<div>click anywhere to keep freaking out</div>
+
+			일시정지
+			<div>아무 곳이나 클릭해서<br>
+            자제력을 잃으세요</div>
+
 		</div>
 	</div>
 
@@ -93,27 +99,29 @@
 	<div id="content_notes">
 
 		<!-- TRANSLATE THIS -->
-		<p style="margin-top: 0.6em;">
-			<i style="color:#ff4040">Adventures With Anxiety</i> is about, well, anxiety.
+		<p style="margin-top: 0.1em;">
+			<i style="color:#ff4040">불안감과 함께하는 모험</i> 은.. 음, 불안감에 대해 다루고 있죠.
 		</p>
 		<p>
-			But I've made this <i>for</i> folks with anxiety disorder, like myself.
-			I hope it can help you see – with humor – how anxiety works.
-			And, just maybe, reduce the fear of fear itself.
+            하지만 저는 저처럼 불안 장애를 가진 사람들을 위해 이 게임을 만들었습니다.
+            불안이 어떻게 생기는지 -재미와 함께- 이해할 수 있었음 하네요.
+            그리고 이건 혹시나지만, 이 게임을 통해 '공포'란 걸 줄일 수 있었으면 좋겠네요.
 		</p>
 		<p>
-			There's also badly-drawn stick figures and a hyperactive wolf.
-			Enjoy!
+			또, 이 게임엔 대충 그린 졸라맨같은 캐릭터와 과하게 움직이는 늑대가 나옵니다. 좋은 시간 되세요!
 		</p>
 		<p style="color:#999; font-size: 16px; line-height: 1.3em;">
-			other notes: alcohol abuse, sexuality<span class="hide-if-cuss-free">, a @✩$!load of swearing</span>
+			주의사항: 과음, 성적 요소<span class="hide-if-cuss-free">, 그리고 @✩$!나게 많은 욕설</span>
 		</p>
 		<p>
-			<a target="_blank" href="https://ncase.me/mental-health/">mental health tips &amp; resources</a>
+
+
+			<a target="_blank" href="https://ncase.me/mental-health/">정신 건강 조언 &amp; 복지기관</a>
+
 			&#x1f517;
 		</p>
 		<div id="cn_ok" onclick="publish('hide_cn');" style="float:none">
-			ok <div class="mini-icon" pic="ok" style="top: 3px;"></div>
+			확인 <div class="mini-icon" pic="ok" style="top: 3px;"></div>
 		</div>
 
 	</div>
@@ -121,40 +129,38 @@
 	<!-- ABOUT -->
 	<div id="about"><!-- about=yes-->
 		<div id="about_words">
-		
-			<!-- TRANSLATE THIS -->
-			<div style="font-size: 40px; margin-top: 42px; line-height: 30px;">
-				mental health
-				<a href="https://ncase.me/mental-health/" target="_blank">resources</a>
+
+			<div style="font-size: 34px; margin-top: 32px; line-height: 40px;">
+				정신 건강 조언과<br>
+				<a href="https://ncase.me/mental-health/" target="_blank">복지기관</a>
 			</div>
 
-			<div style="margin-top: 26px; color: #999;">
-				&mdash; or &mdash;
+			<div style="margin-top: 18px; color: #999;">
+				&mdash; 아니면 &mdash;
 			</div>
 			
-			<div style="font-size: 25px; text-align: left; width: 170px;
+            <div style="font-size: 25px; text-align: left; width: 170px;
 						margin-left: 165px; line-height: 25px; margin-top: 31px;">
-				
-				<!-- TRANSLATE ALL THIS -->
-				<div>
-					play more of
-					<a href="https://ncase.me" target="_blank">my shtuff</a>
-				</div>
-				<div style="margin-top: 32px;">
-					throw coins<br>at me
-					<a href="https://www.patreon.com/ncase" target="_blank">on Patreon</a>
-				</div>
-				<div style="margin-top: 28px;">
-					please your ear-holes with Monplaisir's
-					<a href="https://chezmonplaisir.bandcamp.com/album/anxiety" target="_blank">original soundtrack</a>
-				</div>
+                
+                <div>
+                    제작자가 만든<br>
+                    <a href="https://ncase.me" target="_blank">게임들</a>
+                </div>
+                <div style="margin-top: 30px;">
+                    제작자에게 동전 던지러<br>
+                    <a href="https://www.patreon.com/ncase" target="_blank">Patreon으로</a>
+                </div>
+                <div style="margin-top: 30px;">
+                    귀를 호강시킬 Monplaisir의<br>
+                    <a href="https://chezmonplaisir.bandcamp.com/album/anxiety" target="_blank">original soundtrack</a>
+                </div>
 
-			</div>
+            </div>
 
 			<div id="replay"></div>
 
 			<div style="clear:both;"></div>
-			<div id="close_about" style="margin: 0; float: right; margin-top: 20px;">close</div> <!-- TRANSLATE -->
+			<div id="close_about" style="margin: 0; float: right; margin-top: 20px;">닫기</div> <!-- TRANSLATE -->
 
 		</div>
 	</div>
@@ -166,17 +172,19 @@
 			<input id="text_speed_slider" type="range" min=0 value=0.5 max=1 step="0.01"/>
 		</div>
 		<div style="float: right; width: 135px; height: 63px;">
-			<!-- TRANSLATE THIS -->
-			And advance
-			<div id="text_automatic_toggle">on click</div>
+
+			대화 넘기기:
+			<div id="text_automatic_toggle">클릭 시</div>
 		</div>
 		<div style="clear:both"></div>
 		<span id="volume_options">
-			<div>Volume:</div> <!-- TRANSLATE -->
+			<div>소리 크기:</div>
 			<input id="volume_slider" type="range" min=0 max=1 value=1 step="0.01"/>
 		</span>
 		<div id="options_ok">
-			ok <div class="mini-icon" pic="ok" style="top: 3px;"></div> <!-- TRANSLATE -->
+		    확인
+            <div class="mini-icon" pic="ok" style="top: 3px;"></div>
+
 		</div>
 	</div>
 
@@ -195,48 +203,51 @@
 <!-- TRANSLATE ALL OF THIS -->
 
 <div class="corner-text" id="topleft">
-Created by
+제작 : 
 <a href="https://ncase.me/" target="_blank">Nicky Case</a>
 <br>
-Music by
+음악 : 
 <a href="https://loyaltyfreakmusic.com" target="_blank">Monplaisir</a>
 <br>
-Extra code by
+추가 코딩 : 
 <a href="https://spacie.me/" target="_blank">Spacie</a>
 <br>
-<a href="https://github.com/ncase/anxiety#full-credits" target="_blank">Full credits</a>
+<a href="https://github.com/ncase/anxiety#full-credits" target="_blank">크레딧</a>
 <br><br>
-
-Fan-Made Translations!
 <br>
-<a href="//notdotteam.github.io/anxiety/">Русский</a>
+원본:
 <br>
-<a href="https://lucasgcb.github.io/anxiety/">Português do Brasil</a>
+<a href="https://ncase.me/anxiety/" target="_blank">English</a>
 <br>
-<a href="https://jonasreich.github.io/anxiety/">Deutsch</a>
+<br>
+번역참여:
+<br>
+<a href="https://github.com/KyleHeren" target="_blank">KyleHeren</a> *
+<br>
+<a href="https://github.com/KUMAbabe" target="_blank">KUMAbabe</a>
+<br>
+<a href="https://github.com/Skygazer-Jay" target="_blank">Skygazer-Jay</a>
+<br>
+<a href="https://github.com/septemberstokii" target="_blank">septemberstokii</a> (이미지도)
 <br>
 ...
 <br>
-<a href="https://github.com/ncase/anxiety#how-to-translate" target="_blank">(make your own?)</a>
+<a href="https://github.com/ncase/anxiety#how-to-translate" target="_blank">make your own?</a>
 </div>
 
 <div class="corner-text" id="bottomleft">
 <img src="sprites/about/cc0.png" height="30" style="opacity:0.7"/>
 <br>
-You're already free to reuse &amp; remix this for any use!
-<a href="https://github.com/ncase/anxiety#public-domain" target="_blank">(huh?)</a>
+자유롭게 재사용할 수 있으며, 다른 용도로 각색해도 좋습니다!
+<a href="https://github.com/ncase/anxiety#public-domain" target="_blank">(음?)</a>
 <br>
-<a href="https://github.com/ncase/anxiety" target="_blank">Get the full source code</a>
+<a href="https://github.com/ncase/anxiety" target="_blank">소스코드 보러가기</a>
 </div>
 
 <div class="corner-text" id="topright">
-Share on an anxiety-app:
-<span id="sharing_title">
-	Adventures With Anxiety!
-</span>
-<span id="sharing_desc">
-	I just played this story-game about a human and their anxiety! You play *as* the anxiety. 😱
-</span>
+
+Anxiety를 공유하세요:
+
 <div id="share">
 	<a id="share_link_fb" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fncase.me%2Fanxiety%2F" target="_blank" class="no_deco">
 		<div id="share_fb"></div>
@@ -251,16 +262,19 @@ Share on an anxiety-app:
 	</a>
 </div>
 <br>
-For your sharing pleasure:<br>
-<a href="sharing" target="_blank">Videos &amp; Thumbnails</a>
+
+즐거움을 나누고 싶다면:<br>
+<a href="https://ncase.me/anxiety/sharing/" target="_blank">동영상 &amp; 이미지</a>
 </div>
 
 <div class="corner-text" id="bottomright">
-<a href="https://ncase.me/mental-health/" target="_blank">Mental Health Tips &amp; Resources</a>
+<a href="https://ncase.me/mental-health/" target="_blank">정신 건강 조언 &amp; 복지 기관</a>
+
 <span class="hide-if-cuss-free">
 	<br><br>
-	<a href="?c=1">Cuss-Free Mode</a><br>
-	(for educators who want to avoid an awkward PTA meeting)
+	<a href="?c=1">욕설 필터링 모드</a><br>
+	(어..음.. 욕설이나 자극적인 말을<br>
+    보기싫다면..)
 </span>
 </div>
 
