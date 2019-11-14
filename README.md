@@ -4,13 +4,11 @@
 
 <br>
 
-제작: [Nicky Case](https://ncase.me/)
-
 번역: KyleHeren, KUMAbabe, Skygazer-Jay, septemberstokii
 
 이미지 번역: KUMAbabe, septemberstokii
 
-[소스코드(원본)](https://github.com/ncase/anxiety)
+[[소스코드(원본)]](https://github.com/ncase/anxiety)
 
 ## 크레딧
 
