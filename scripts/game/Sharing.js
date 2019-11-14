@@ -6,8 +6,8 @@ $("#share_link_fb").setAttribute("href",
 	"https://www.facebook.com/sharer/sharer.php?u="+encodeURIComponent(SHARING_LINK)
 	);
 $("#share_link_tw").setAttribute("href", 
-	"https://twitter.com/intent/tweet?text="+encodeURI(encodeURIComponent(SHARING_DESC))+"%20"+encodeURIComponent(SHARING_LINK)
+	"https://twitter.com/intent/tweet?text="+encodeURIComponent(SHARING_DESC)+"%20"+encodeURIComponent(SHARING_LINK)
 	);
 $("#share_link_em").setAttribute("href", 
-	"mailto:?subject="+encodeURI(encodeURIComponent(SHARING_TITLE))+"&body="+encodeURI(encodeURIComponent(SHARING_DESC))+"%20"+encodeURIComponent(SHARING_LINK)
+	"mailto:?subject="+encodeURIComponent(SHARING_TITLE)+"&body="+encodeURIComponent(SHARING_DESC)+"%20"+encodeURIComponent(SHARING_LINK)
 	);
