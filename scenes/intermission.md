@@ -16,7 +16,7 @@ Game.FORCE_CANT_SKIP = true;
 publish("show_stats");
 ```
 
-n2: 이번 이야기에서의 공포들:
+n2: 이번 라운드의 공포들:
 
 i: #harm# *상처받음:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
 

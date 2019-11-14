@@ -104,7 +104,7 @@ bb({eyes:"look"});
 
 `hong({mouth:"smile", eyes:"surprise"});`
 
-h: 헤헤, 그러네, 귀엽ㄷ--
+h: 헤헤, 그러네, 귀엽ㄷ
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -112,7 +112,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: 고양이는 우유를 소화 못 해 이런 학대 영상을 보고 즐기다니 우리는 끔찍한 사람이야
+b: 고양이는 우유를 소화 못 해. 이런 학대 영상을 보고 즐기다니 우리는 끔찍한 사람이야.
 (...200)
 
 ```
