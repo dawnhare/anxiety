@@ -187,7 +187,7 @@ n: 당신의 임무는 *위험* 으로부터 인간을 보호하는 것입니다
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: 사실, 저 샌드위치가 인간을 *위험* 에 빠트리고 있군요
+n: 저 샌드위치가 인간을 *위험* 에 빠트리고 있군요
 
 n: 어서 주의를 주세요!
 
@@ -209,7 +209,7 @@ n4: ( _당신_ 의 불안감이 게임을 플레이하게 두세요! _당신_ �
 
 [혼자서 점심을 먹고 있잖아! 또!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[우리는 먹는동안 뭘 할 수 없다고!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[먹는 데 시간 낭비하고 있잖아!!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
 [저 하얀 식빵은 건강에 나빠!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
@@ -226,7 +226,7 @@ b: 너 외로움을 느끼면 담배를 하루에 15 개비를 피는 것만큼 
 
 `bb({mouth:"normal", eyes:"normal_right"})`
 
-b: (홀트-렁스태드 2010, PLoS 의학지)
+b: (Holt-Lunstad 2010, PLoS 의학지)
 
 `hong({eyes:"0_annoyed"})`
 
@@ -277,7 +277,7 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 
 b: 사회에 공헌하는 게 없으면 우린 사회의 기생충이나 다름 없어!
 
-b: 사회단체는 사회운동가들을 죽이기 위해 사회의 의사에게 갈거고, 그러면 우리는..
+b: '사회'는 '사회의 기생충'을 죽이기 위해 '사회의 의사'에게 갈거고, 그러면 우리는..
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
@@ -417,7 +417,7 @@ b: 대체 어떤 공허함을 채우려고 하는 거지? 분명 심각하게 �
 
 `hong({eyes:"surprise"});`
 
-h: 게다가, 나 초대까지 받았는데?
+h: 나 초대까지 받았는데?
 
 `bb({eyes:"fear", mouth:"normal"});`
 
@@ -474,7 +474,7 @@ b: 단, 하얀 식빵을 대접하지 않는다면 말이야.
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: 쳇. 너만 입닫는다면야, 좋아.
+h: 쳇. 너만 입 닫는다면야, 좋아.
 
 h: 간다고 할게.
 
@@ -519,7 +519,7 @@ b: 게다가 파티를 즐길 수 없어. 우리는 일을 하지 않으면 우�
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: 쳇. 너만 입닫는다면야, 좋아.
+h: 쳇. 너만 입 닫는다면야, 좋아.
 
 h: 안 간다고 할게
 
@@ -573,7 +573,7 @@ attack("18p", "bad");
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: 어휴. 너만 입닫는다면야, 좋아.
+h: 어휴. 너만 입 닫는다면야, 좋아.
 
 h: 그냥 무시할게.
 
@@ -588,7 +588,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"annoyed"});
 ```
 
-h: 어쨌든, 페이스북은 이쯤 할래. 좀 차분하고, 내 불안감을 줄여줄만한게 필요해.
+h: 어쨌든, 페이스북은 이쯤 할래. 좀 차분하고, 내 불안감을 줄여 줄 만한게 필요해.
 
 `hong({eyes:"neutral"});`
 
@@ -1409,12 +1409,12 @@ b: 가ㅈ--
 
 ```
 bb({eyes:"wat", mouth:"small"});
-hong({body:"2_fuck"});
+hong({body:"2_you"});
 ```
 
 h: *^좆^.*
 
-`hong({body:"2_you"});`
+`hong({body:"2_fuck"});`
 
 h: 까.
 
@@ -1563,7 +1563,7 @@ n: 축하합니다
 
 n: 당신은 성공적으로 인간을 물리적인, 사회적인, 정신적인 건강을 지켜냈습니다
 
-n: 자, 저 고마워하는 거 보세요!
+n: 이야, 저 고마워하는 거 보세요!
 
 (...500)
 
